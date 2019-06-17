@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+  "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+  
+  <mapper namespace="com.gam.Alert">
+    
+     <select id="selectAlert" parameterType="int" resultType="AlertDto">
+         SELECT alertboard_seq, alertboard_group, alertboard_step, alertboard_title, alertboard_contents, alertboard_writer, alertboard_readcount, alertboard_regdate, alertboard_delflag
+			FROM mgm.mgm_alertboard
+			WHERE alertboard_seq =#{alertboard_seq}
+     </select>
+  </mapper>
