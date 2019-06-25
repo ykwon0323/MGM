@@ -19,6 +19,7 @@
 	<beans:bean class="org.springframework.web.servlet.view.InternalResourceViewResolver">
 		<beans:property name="prefix" value="/WEB-INF/views/" />
 		<beans:property name="suffix" value=".jsp" />
+		<beans:property name="contentType" value="text/html; charset=UTF-8"/>
 	</beans:bean>
 	
 
@@ -26,6 +27,6 @@
 	
 		<!-- multipart요청정보를 받기위한 객체 선언  -->
 	<beans:bean id="multipartResolver" class="org.springframework.web.multipart.commons.CommonsMultipartResolver">
-	
+	<beans:property name="maxUploadSize" value="52428800"></beans:property>
 	</beans:bean>
 </beans:beans>
