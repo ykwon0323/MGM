@@ -7,7 +7,7 @@
 </head>
 <body>
 	<h1>hello world!</h1>
-	<form action="test.do">
+	<form action="main.do">
 		<input type="submit"  value="TEST">
 		
 	</form>

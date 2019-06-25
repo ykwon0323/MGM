@@ -12,10 +12,14 @@ public class FunDto {
 	private int funboard_readcount;
 	private Date funboard_regdate;
 	private String funboard_delflag;
+	private String funboard_recommender;
+	private int funboard_pushnum;
 	
 	
-	public FunDto(int funboard_seq, int funboard_group, int funboard_step, String funboard_title, String funboard_contents,
-			String funboard_writer, int funboard_readcount, Date funboard_regdate, String funboard_delflag) {
+	
+	public FunDto(int funboard_seq, int funboard_group, int funboard_step, String funboard_title,
+			String funboard_contents, String funboard_writer, int funboard_readcount, Date funboard_regdate,
+			String funboard_delflag, String funboard_recommender, int funboard_pushnum) {
 		super();
 		this.funboard_seq = funboard_seq;
 		this.funboard_group = funboard_group;
@@ -26,6 +30,8 @@ public class FunDto {
 		this.funboard_readcount = funboard_readcount;
 		this.funboard_regdate = funboard_regdate;
 		this.funboard_delflag = funboard_delflag;
+		this.funboard_recommender = funboard_recommender;
+		this.funboard_pushnum = funboard_pushnum;
 	}
 
 
@@ -118,13 +124,36 @@ public class FunDto {
 		this.funboard_delflag = funboard_delflag;
 	}
 
+	public String getFunboard_recommender() {
+		return funboard_recommender;
+	}
+	
+	
+	public void setFunboard_recommender(String funboard_recommender) {
+		this.funboard_recommender = funboard_recommender;
+	}
+	
+	
+	public int getFunboard_pushnum() {
+		return funboard_pushnum;
+	}
+	
+	
+	public void setFunboard_pushnum(int funboard_pushnum) {
+		this.funboard_pushnum = funboard_pushnum;
+	}
+
 
 	@Override
 	public String toString() {
-		return "funboardDto [funboard_seq=" + funboard_seq + ", funboard_group=" + funboard_group + ", funboard_step=" + funboard_step
-				+ ", funboard_title=" + funboard_title + ", funboard_contents=" + funboard_contents + ", funboard_writer=" + funboard_writer
-				+ ", funboard_readcount=" + funboard_readcount + ", funboard_regdate=" + funboard_regdate + ", funboard_delflag="
-				+ funboard_delflag + "]";
+		return "FunDto [funboard_seq=" + funboard_seq + ", funboard_group=" + funboard_group + ", funboard_step="
+				+ funboard_step + ", funboard_title=" + funboard_title + ", funboard_contents=" + funboard_contents
+				+ ", funboard_writer=" + funboard_writer + ", funboard_readcount=" + funboard_readcount
+				+ ", funboard_regdate=" + funboard_regdate + ", funboard_delflag=" + funboard_delflag
+				+ ", funboard_recommender=" + funboard_recommender + ", funboard_pushnum=" + funboard_pushnum + "]";
 	}
+
+	
+
 
 }

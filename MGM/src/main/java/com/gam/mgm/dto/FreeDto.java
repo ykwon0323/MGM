@@ -12,10 +12,19 @@ public class FreeDto {
 	private int freeboard_readcount;
 	private Date freeboard_regdate;
 	private String freeboard_delflag;
+	private String freeboard_recommender;
+	private int freeboard_pushnum;
 	
 	
-	public FreeDto(int freeboard_seq, int freeboard_group, int freeboard_step, String freeboard_title, String freeboard_contents,
-			String freeboard_writer, int freeboard_readcount, Date freeboard_regdate, String freeboard_delflag) {
+	public FreeDto() {
+		super();
+	
+	}
+
+
+	public FreeDto(int freeboard_seq, int freeboard_group, int freeboard_step, String freeboard_title,
+			String freeboard_contents, String freeboard_writer, int freeboard_readcount, Date freeboard_regdate,
+			String freeboard_delflag, String freeboard_recommender, int freeboard_pushnum) {
 		super();
 		this.freeboard_seq = freeboard_seq;
 		this.freeboard_group = freeboard_group;
@@ -26,6 +35,8 @@ public class FreeDto {
 		this.freeboard_readcount = freeboard_readcount;
 		this.freeboard_regdate = freeboard_regdate;
 		this.freeboard_delflag = freeboard_delflag;
+		this.freeboard_recommender = freeboard_recommender;
+		this.freeboard_pushnum = freeboard_pushnum;
 	}
 
 
@@ -118,13 +129,37 @@ public class FreeDto {
 		this.freeboard_delflag = freeboard_delflag;
 	}
 
+	public String getFreeboard_recommender() {
+		return freeboard_recommender;
+	}
+	
+	
+	public void setFreeboard_recommender(String freeboard_recommender) {
+		this.freeboard_recommender = freeboard_recommender;
+	}
+
+	public int getFreeboard_pushnum() {
+		return freeboard_pushnum;
+	}
+	
+	
+	public void setFreeboard_pushnum(int freeboard_pushnum) {
+		this.freeboard_pushnum = freeboard_pushnum;
+	}
+
 
 	@Override
 	public String toString() {
-		return "freeboardDto [freeboard_seq=" + freeboard_seq + ", freeboard_group=" + freeboard_group + ", freeboard_step=" + freeboard_step
-				+ ", freeboard_title=" + freeboard_title + ", freeboard_contents=" + freeboard_contents + ", freeboard_writer=" + freeboard_writer
-				+ ", freeboard_readcount=" + freeboard_readcount + ", freeboard_regdate=" + freeboard_regdate + ", freeboard_delflag="
-				+ freeboard_delflag + "]";
+		return "FreeDto [freeboard_seq=" + freeboard_seq + ", freeboard_group=" + freeboard_group + ", freeboard_step="
+				+ freeboard_step + ", freeboard_title=" + freeboard_title + ", freeboard_contents=" + freeboard_contents
+				+ ", freeboard_writer=" + freeboard_writer + ", freeboard_readcount=" + freeboard_readcount
+				+ ", freeboard_regdate=" + freeboard_regdate + ", freeboard_delflag=" + freeboard_delflag
+				+ ", freeboard_recommender=" + freeboard_recommender + ", freeboard_pushnum=" + freeboard_pushnum + "]";
 	}
+	
+
+
+
+
 
 }
