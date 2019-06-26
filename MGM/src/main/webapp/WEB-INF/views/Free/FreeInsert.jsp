@@ -21,7 +21,7 @@
 </head>
 <body>
 	
-	<form action="write" method="post" id="frm">
+	<form action="write.do" method="post" id="frm">
 	<table>
 		<tr>
 			<td>제목</td>

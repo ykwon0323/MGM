@@ -23,4 +23,10 @@ public class FreeService implements IFreeService{
 	   public int selectTotalPaging() {
 	      return freeDao.selectTotalPaging();
 	   }
+
+	@Override
+	public boolean freeinsert(FreeDto freeDto) {
+		
+		return freeDao.freeinsert(freeDto);
+	}
 }

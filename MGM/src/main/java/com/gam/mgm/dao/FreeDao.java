@@ -32,4 +32,11 @@ public class FreeDao implements IFreeDao{
        return sqlSession.selectOne(namespace+"selectTotalPaging");
     }
 
+
+	@Override
+	public boolean freeinsert(FreeDto freeDto) {
+		int cnt = sqlSession.insert(namespace+"freeinsert", freeDto);
+		return cnt>0?true:false;
+	}
+
 }

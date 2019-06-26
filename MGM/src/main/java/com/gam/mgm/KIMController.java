@@ -171,18 +171,31 @@ public class KIMController implements ServletContextAware{
 			response.sendRedirect(return1+return2+return3);
 		}
 		
-		@RequestMapping(value = "/write", method = RequestMethod.POST)
-		public ModelAndView write(HttpServletRequest request) throws IOException, FileUploadException {
-			String title = request.getParameter("title");
-			String smarteditor = request.getParameter("smarteditor");
-//			
-//			System.out.println("title = " + title);
-//			System.out.println("content = " + smarteditor);
-			ModelAndView model = new ModelAndView("write");
-			model.addObject("title", title);
-			model.addObject("smarteditor", smarteditor);
-			return model;
-		}
+		@RequestMapping(value = "/write.do", method = RequestMethod.POST)
+	      public ModelAndView write(HttpServletRequest request) throws IOException, FileUploadException {
+	         String title = request.getParameter("title");
+	         String smarteditor = request.getParameter("smarteditor");
+	         //세션에서 아이디 추출해야함
+	         FreeDto freeDto = new FreeDto();
+	         freeDto.setFreeboard_contents(smarteditor);
+	         freeDto.setFreeboard_title(title);
+	         freeDto.setFreeboard_writer("admin");
+	         boolean isS = freeService.freeinsert(freeDto);
+	         System.out.println("isS:"+isS);
+	         if(isS) {
+	            ModelAndView model = new ModelAndView("Free/write");
+	            model.addObject("title", title);
+	            model.addObject("smarteditor", smarteditor);
+	            return model;
+	         }else {
+	            ModelAndView model = new ModelAndView("error");
+	            model.addObject("msg","입력에 실패했습니다.다시 입력해주세요");
+	            return model;
+	         }
+	/*         System.out.println("title = " + title);
+	         System.out.println("content = " + smarteditor);*/
+	      
+	      }
 		
 		@Override
 		public void setServletContext(ServletContext servletContext) {

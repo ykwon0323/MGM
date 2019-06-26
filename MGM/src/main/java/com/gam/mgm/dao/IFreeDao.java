@@ -9,4 +9,6 @@ public interface IFreeDao {
 	public List<FreeDto> getAllList(PagingDto paging);
 
 	   public int selectTotalPaging();
+
+	public boolean freeinsert(FreeDto freeDto);
 }

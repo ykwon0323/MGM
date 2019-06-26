@@ -15,6 +15,11 @@
 		SELECT COUNT(*) FROM mgm_freeboard
 	</select> 
     
-    
+     <insert id="freeinsert" parameterType="FreeDto" >
+     insert into mgm_freeboard(freeboard_seq,freeboard_group,freeboard_step,freeboard_depth,freeboard_title,freeboard_contents,freeboard_writer,freeboard_readcount,freeboard_regdate,
+            freeboard_delflag,freeboard_recommender,freeboard_pushnum)       
+            select case count(*) when 0 then 1 else max(freeboard_seq) + 1 end ,
+           (SELECT IFNULL(MAX(freeboard_group) + 1, 1) FROM mgm_freeboard b),0,0,#{freeboard_title},#{freeboard_contents},#{freeboard_writer},0,now(),'N','null',0 from mgm_freeboard
+  </insert>
     
   </mapper>
