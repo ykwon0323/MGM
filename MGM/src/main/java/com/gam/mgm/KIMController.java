@@ -10,8 +10,10 @@ import java.io.PrintWriter;
 import java.text.DateFormat;
 import java.text.SimpleDateFormat;
 import java.util.Date;
+import java.util.HashMap;
 import java.util.List;
 import java.util.Locale;
+import java.util.Map;
 import java.util.UUID;
 
 import javax.servlet.ServletContext;
@@ -32,8 +34,8 @@ import org.springframework.web.bind.annotation.RequestMethod;
 import org.springframework.web.servlet.ModelAndView;
 import org.springframework.web.context.ServletContextAware;
 import com.gam.mgm.dto.FreeDto;
-import com.gam.mgm.dto.PagingDto;
 
+import com.gam.mgm.paging.PageMaker;
 import com.gam.mgm.service.IFreeService;
 import org.springframework.ui.Model;
 import org.springframework.stereotype.Controller;
@@ -49,13 +51,18 @@ public class KIMController implements ServletContextAware{
 	@Autowired
 	private IFreeService freeService;
 	
+	@Override
+	public void setServletContext(ServletContext servletContext) {
+		this.context = servletContext;
+	}
+
 	@RequestMapping(value = "/main.do", method = RequestMethod.GET)
 	public String main(Locale locale, Model model) {
 		logger.info(" 메인 이동하기{}.", locale);
 		return "Main";
 	}
 	
-	 @RequestMapping(value = "/freeboard.do", method = {RequestMethod.POST,RequestMethod.GET})
+	/* @RequestMapping(value = "/freeboard.do", method = {RequestMethod.POST,RequestMethod.GET})
      public String freeboard(Locale locale, Model model,PagingDto paging) {
         logger.info(" 자유게시판 이동하기{}.", locale);
         List<FreeDto> list = freeService.getAllList(paging);
@@ -66,7 +73,36 @@ public class KIMController implements ServletContextAware{
         model.addAttribute("p", paging);
         
         return "Free/FreeBoard";
-     }
+     }*/
+	@RequestMapping(value = "/freeboard.do", method = {RequestMethod.POST,RequestMethod.GET})
+	public String freeboard(Locale locale, Model model,HttpServletRequest request) {
+		logger.info(" 자유게시판 이동하기{}.", locale);
+		PageMaker pagemaker = new PageMaker();
+		String pagenum = request.getParameter("pagenum");
+		String contentnum = request.getParameter("contentnum");
+		int cpagenum = Integer.parseInt(pagenum);
+		int ccontentnum = Integer.parseInt(contentnum);
+		
+		pagemaker.setTotalcount(freeService.selectTotalPaging());//전체 게시글 개수를 저장한다
+		pagemaker.setPagenum(cpagenum-1);//현재 페이지를 페잊 객체에 지정한다. -1을 해야 쿼리에서 사용할수 있음
+		pagemaker.setContentnum(ccontentnum);//한페이지에 몇개씩 게시글을 보여줄지 지정한다
+		pagemaker.setCurrentblock(cpagenum);//현재 페이지 블록이 몇번인지 현대 페이지 번호를 통해서 지정한다.
+		pagemaker.setLastblock(pagemaker.getTotalcount());//마지막 블록 번호를 전체 게시글 수를 통해서 전한다
+		
+		pagemaker.prevnext(cpagenum); //현재 페이지 번호로 화살표를 나타낼지 정한다
+		pagemaker.setStartPage(pagemaker.getCurrentblock()); //시작페이지를 페이지 블록 번호로 정한다
+		pagemaker.setEndPage(pagemaker.getLastblock(), pagemaker.getCurrentblock()); //마지막 페이지를 마지막 페이지 블록과 현재 페이지 블록 번호로 정한다
+		Map<String,Object> map = new HashMap<String,Object>();
+		map.put("pagenum", pagemaker.getPagenum()*10);
+		map.put("contentnum", pagemaker.getContentnum());
+		List<FreeDto> list = freeService.getAllList(map);
+		
+		model.addAttribute("list", list);
+		 model.addAttribute("page", pagemaker);
+		return "Free/FreeBoard";
+		
+	}
+	
 	 @RequestMapping(value = "/freeinsertform.do", method = RequestMethod.GET)
 		public String ansinsertform(Locale locale, Model model) {
 			logger.info("자유게시판 글쓰기 이동 {}.", locale);
@@ -197,10 +233,13 @@ public class KIMController implements ServletContextAware{
 	      
 	      }
 		
-		@Override
-		public void setServletContext(ServletContext servletContext) {
-			this.context = servletContext;
+		@RequestMapping(value = "/freedetail.do", method = RequestMethod.GET)
+		public String freedetail(Locale locale, Model model,int seq) {
+			logger.info("자유게시판 상세 보기 {}.", locale);
+			FreeDto freeDto = freeService.getBoard(seq);
+			model.addAttribute("freeDto",freeDto);
+			
+			return "Free/FreeDetail";
 		}
-	
 	 
 }

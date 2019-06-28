@@ -9,8 +9,16 @@
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
 <title>자유게시판</title>
-<script type="text/javascript" src="resources/js/jquery-3.3.1.min.js"></script>
-<script type="text/javascript" src="resources/js/paging.js"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+<script type="text/javascript" src="<c:url value="/resources/js/jquery-3.3.1.min.js"/>"></script>
+<%-- <script type="text/javascript" src="<c:url value="/resources/js/paging.js"/>"></script> --%>
+<script type="text/javascript">
+	function page(idx) {
+		var pagenum = idx;
+		var contentnum = 10;//$("#contentnum option:selected").val();
+		location.href="freeboard.do?pagenum="+pagenum+"&contentnum="+contentnum;
+	}
+</script>
 </head>
 <body>
 <h1>자유게시판</h1>
@@ -56,28 +64,35 @@
 	</c:choose>	
 	
 	<tr>
-   <td colspan="6" style="text-align: center;">
+   <td colspan="5" style="text-align: center;">
    
-   
-
-    <div class="pagination"  style="size: 12px;">
+   	<c:if test="${page.prev }">
+   		<a style="text-decoration: none;"href="javascript:page(${page.getStartPage()-1});">&laquo;</a>
+   	</c:if>
+   	<c:forEach begin="${page.getStartPage()}" end="${page.getEndPage()}" var="idx">
+   		<a style="text-decoration: none;" href="javascript:page(${idx});">${idx}</a>
+   	</c:forEach>
+   <c:if test="${page.next }">
+   		<a style="text-decoration: none;"href="javascript:page(${page.getEndPage()+1});">&raquo;</a>
+   	</c:if>
+    <%-- <div class="pagination"  style="size: 12px;">
             <c:if test="${p.pageStartNum ne 1}">
                 <!--맨 첫페이지 이동 -->
-                <span style="margin-right:15px;"><a onclick='pagePre(${p.pageCnt+1},${p.pageCnt});' style="color: white; font-weight: bold; border-radius: 10%; width: 40px;">‹‹</a></span>
+                <span style="margin-right:15px;"><a onclick='pagePre(${p.pageCnt+1},${p.pageCnt});' style="color: black; font-weight: bold; border-radius: 10%; width: 40px;">‹‹</a></span>
                 <!--이전 페이지 이동 -->
-                 <span><a onclick='pagePre(${p.pageStartNum},${p.pageCnt});' style="color: white; font-weight: bold;">‹</a></span> 
+                 <span><a onclick='pagePre(${p.pageStartNum},${p.pageCnt});' style="color: black; font-weight: bold;">‹</a></span> 
             </c:if>
             
             <!--페이지번호 -->
             <c:forEach var='i' begin="${p.pageStartNum}" end="${p.pageLastNum}" step="1">
-                <span class='pageIndex${i}'><a onclick='pageIndex(${i});' style="color: white; font-weight: bold;">${i}</a></span>
+                <span class='pageIndex${i}'><a onclick='pageIndex(${i});' style="color: black; font-weight: bold;">${i}</a></span>
             </c:forEach>
             
             <c:if test="${p.lastChk}">
                 <!--다음 페이지 이동 -->
-                <span><a onclick='pageNext(${p.pageStartNum},${p.total},${p.listCnt},${p.pageCnt});' style="color: white; font-weight: bold;  border-radius: 10%; width: 40px;">></a></span>
+                <span><a onclick='pageNext(${p.pageStartNum},${p.total},${p.listCnt},${p.pageCnt});' style="color: black; font-weight: bold;  border-radius: 10%; width: 40px;">></a></span>
                 <!--마지막 페이지 이동 -->
-                <span><a onclick='pageLast(${p.pageStartNum},${p.total},${p.listCnt},${p.pageCnt});' style="color: white; font-weight: bold; border-radius: 10%; width: 35px;">»</a></span> 
+                <span><a onclick='pageLast(${p.pageStartNum},${p.total},${p.listCnt},${p.pageCnt});' style="color: black; font-weight: bold; border-radius: 10%; width: 35px;">»</a></span> 
             </c:if>
         </div>
         
@@ -87,17 +102,20 @@
             <input type='hidden' name='index' id='index' value='${p.index}'>
             <input type='hidden' name='pageStartNum' id='pageStartNum' value='${p.pageStartNum}'>
             <input type='hidden' name='listCnt' id='listCnt' value='${p.listCnt}'>    
-        </form>
+        </form> --%>
     
        
+        </td>
+        <td>
 				<div class="row form-group" style="text-align: center;">
                 <div class="col-md-12">
-                  <input type="button" value="글쓰기" class="btn btn-primary text-white" style="width: 20%; float: right;" onclick="location.href='freeinsertform.do'">
+                  <input type="button" value="글쓰기" onclick="location.href='freeinsertform.do'">
                 </div>
               </div>
+	
+        
         </td>
 	</tr>
-	
 	</table>
 </body>
 </html>

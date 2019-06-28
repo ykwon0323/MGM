@@ -55,7 +55,7 @@
 		<h2> tab menu(확인용이니 신경쓰지마시길)</h2>
 		
 		<ul class="tab">
-			<li class="current" data-tab="tab1"><a href="freeboard.do">AAAA</a></li>
+			<li class="current" data-tab="tab1"><a href="freeboard.do?pagenum=1&contentnum=10">AAAA</a></li>
 			<li data-tab="tab2"><a href="#">BBBB</a></li>
 			<li data-tab="tab3"><a href="#">CCCC</a></li>
 			<li data-tab="tab4"><a href="#">DDDD</a></li>

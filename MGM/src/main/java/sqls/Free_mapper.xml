@@ -7,9 +7,10 @@
   <select id="freelist" parameterType="Map" resultType="FreeDto">
   SELECT freeboard_seq,freeboard_group,freeboard_step,freeboard_title,freeboard_writer,freeboard_readcount,
 		freeboard_regdate,freeboard_delflag,freeboard_recommender,freeboard_pushnum
-		FROM mgm_freeboard ORDER BY freeboard_group DESC,freeboard_step ASC LIMIT #{start},#{last}
+		FROM mgm_freeboard ORDER BY freeboard_group DESC,freeboard_step ASC LIMIT #{pagenum},#{contentnum}
   
   </select>
+   
     
    <select id="selectTotalPaging" resultType="int">
 		SELECT COUNT(*) FROM mgm_freeboard
@@ -22,4 +23,9 @@
            (SELECT IFNULL(MAX(freeboard_group) + 1, 1) FROM mgm_freeboard b),0,0,#{freeboard_title},#{freeboard_contents},#{freeboard_writer},0,now(),'N','null',0 from mgm_freeboard
   </insert>
     
+    <select id="freedetail" parameterType="int"  resultType="FreeDto">
+    SELECT freeboard_seq,freeboard_group,freeboard_step,freeboard_depth,freeboard_title,freeboard_writer,freeboard_readcount,
+		freeboard_regdate,freeboard_delflag,freeboard_recommender,freeboard_pushnum
+		FROM mgm_freeboard WHERE freeboard_seq = #{seq}
+    </select>
   </mapper>

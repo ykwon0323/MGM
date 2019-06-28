@@ -1,6 +1,7 @@
 package com.gam.mgm.service;
 
 import java.util.List;
+import java.util.Map;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
@@ -15,8 +16,8 @@ public class FreeService implements IFreeService{
 	   private IFreeDao freeDao;
 
 	   @Override
-	   public List<FreeDto> getAllList(PagingDto paging) {
-	      return freeDao.getAllList(paging);
+	   public List<FreeDto> getAllList(Map<String, Object> map) {
+	      return freeDao.getAllList(map);
 	   }
 
 	   @Override
@@ -28,5 +29,11 @@ public class FreeService implements IFreeService{
 	public boolean freeinsert(FreeDto freeDto) {
 		
 		return freeDao.freeinsert(freeDto);
+	}
+
+	@Override
+	public FreeDto getBoard(int seq) {
+		
+		return freeDao.getBoard(seq);
 	}
 }

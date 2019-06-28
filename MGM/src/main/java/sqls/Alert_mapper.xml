@@ -4,9 +4,9 @@
   
   <mapper namespace="com.gam.Alert">
     
-     <select id="selectAlert" parameterType="int" resultType="AlertDto">
+    <!--  <select id="selectAlert" parameterType="int" resultType="AlertDto">
          SELECT alertboard_seq, alertboard_group, alertboard_step, alertboard_title, alertboard_contents, alertboard_writer, alertboard_readcount, alertboard_regdate, alertboard_delflag
 			FROM mgm.mgm_alertboard
 			WHERE alertboard_seq =#{alertboard_seq}
-     </select>
+     </select> -->
   </mapper>

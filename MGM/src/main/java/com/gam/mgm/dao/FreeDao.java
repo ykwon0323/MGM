@@ -18,11 +18,13 @@ public class FreeDao implements IFreeDao{
     private SqlSessionTemplate sqlSession;
  
   @Override
- public List<FreeDto> getAllList(PagingDto paging) {
-     Map<String,Object> map = new HashMap<String,Object>();
+ public List<FreeDto> getAllList(Map<String, Object> map) {
+    /* Map<String,Object> map = new HashMap<String,Object>();
  
       map.put("start",paging.getStart());
-       map.put("last",paging.getLast());   
+      System.out.println(paging.getStart());
+       map.put("last",paging.getLast());
+       System.out.println(paging.getLast());*/
      return sqlSession.selectList(namespace+"freelist",map);
  }
   
@@ -37,6 +39,13 @@ public class FreeDao implements IFreeDao{
 	public boolean freeinsert(FreeDto freeDto) {
 		int cnt = sqlSession.insert(namespace+"freeinsert", freeDto);
 		return cnt>0?true:false;
+	}
+
+
+	@Override
+	public FreeDto getBoard(int seq) {
+		
+		return sqlSession.selectOne(namespace+"freedetail",seq);
 	}
 
 }
