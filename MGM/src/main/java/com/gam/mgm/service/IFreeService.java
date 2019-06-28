@@ -14,4 +14,6 @@ public interface IFreeService {
 	public boolean freeinsert(FreeDto freeDto);
 
 	public FreeDto getBoard(int seq);
+
+	public boolean readCount(int seq);
 }

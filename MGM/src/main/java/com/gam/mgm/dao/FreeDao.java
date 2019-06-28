@@ -48,4 +48,11 @@ public class FreeDao implements IFreeDao{
 		return sqlSession.selectOne(namespace+"freedetail",seq);
 	}
 
+
+	@Override
+	public boolean readCount(int seq) {
+		int cnt = sqlSession.insert(namespace+"readcount", seq);
+		return cnt>0?true:false;
+	}
+
 }

@@ -236,6 +236,7 @@ public class KIMController implements ServletContextAware{
 		@RequestMapping(value = "/freedetail.do", method = RequestMethod.GET)
 		public String freedetail(Locale locale, Model model,int seq) {
 			logger.info("자유게시판 상세 보기 {}.", locale);
+			freeService.readCount(seq);
 			FreeDto freeDto = freeService.getBoard(seq);
 			model.addAttribute("freeDto",freeDto);
 			

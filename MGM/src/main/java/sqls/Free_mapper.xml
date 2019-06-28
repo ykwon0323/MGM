@@ -28,4 +28,7 @@
 		freeboard_regdate,freeboard_delflag,freeboard_recommender,freeboard_pushnum
 		FROM mgm_freeboard WHERE freeboard_seq = #{seq}
     </select>
+    <update id="readcount" parameterType="seq">
+    	UPDATE mgm_freeboard SET freeboard_readcount = freeboard_readcount+1 WHERE freeboard_seq=#{seq}
+    </update>
   </mapper>

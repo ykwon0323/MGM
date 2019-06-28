@@ -36,4 +36,10 @@ public class FreeService implements IFreeService{
 		
 		return freeDao.getBoard(seq);
 	}
+
+	@Override
+	public boolean readCount(int seq) {
+		
+		return freeDao.readCount(seq);
+	}
 }
