@@ -13,7 +13,7 @@ public interface IFreeDao {
 
 	public boolean freeinsert(FreeDto freeDto);
 
-	public FreeDto getBoard(int seq);
+	public FreeDto getBoard(int freeboard_seq);
 
-	public boolean readCount(int seq);
+	public boolean readCount(int freeboard_seq);
 }

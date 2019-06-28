@@ -26,9 +26,9 @@
     <select id="freedetail" parameterType="int"  resultType="FreeDto">
     SELECT freeboard_seq,freeboard_group,freeboard_step,freeboard_depth,freeboard_title,freeboard_writer,freeboard_readcount,
 		freeboard_regdate,freeboard_delflag,freeboard_recommender,freeboard_pushnum
-		FROM mgm_freeboard WHERE freeboard_seq = #{seq}
+		FROM mgm_freeboard WHERE freeboard_seq = #{freeboard_seq}
     </select>
-    <update id="readcount" parameterType="seq">
-    	UPDATE mgm_freeboard SET freeboard_readcount = freeboard_readcount+1 WHERE freeboard_seq=#{seq}
+    <update id="readcount" parameterType="int">
+    	UPDATE mgm_freeboard SET freeboard_readcount = freeboard_readcount+1 WHERE freeboard_seq=#{freeboard_seq}
     </update>
   </mapper>

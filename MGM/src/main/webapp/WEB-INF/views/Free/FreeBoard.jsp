@@ -50,7 +50,7 @@
 						</c:when>
 						<c:otherwise>    
 					        <td  style="text-align: center;">
-					        <a href="freedetail.do?seq=${freeDto.freeboard_seq}">${freeDto.freeboard_title}</a>
+					        <a href="freedetail.do?freeboard_seq=${freeDto.freeboard_seq}">${freeDto.freeboard_title}</a>
 					        </td>				            									
 						</c:otherwise>
 					</c:choose>

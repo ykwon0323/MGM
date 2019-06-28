@@ -43,15 +43,15 @@ public class FreeDao implements IFreeDao{
 
 
 	@Override
-	public FreeDto getBoard(int seq) {
+	public FreeDto getBoard(int freeboard_seq) {
 		
-		return sqlSession.selectOne(namespace+"freedetail",seq);
+		return sqlSession.selectOne(namespace+"freedetail",freeboard_seq);
 	}
 
 
 	@Override
-	public boolean readCount(int seq) {
-		int cnt = sqlSession.insert(namespace+"readcount", seq);
+	public boolean readCount(int freeboard_seq) {
+		int cnt = sqlSession.update(namespace+"readcount", freeboard_seq);
 		return cnt>0?true:false;
 	}
 
