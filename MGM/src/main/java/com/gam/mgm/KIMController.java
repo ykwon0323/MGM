@@ -59,7 +59,7 @@ public class KIMController implements ServletContextAware{
 	@RequestMapping(value = "/main.do", method = RequestMethod.GET)
 	public String main(Locale locale, Model model) {
 		logger.info(" 메인 이동하기{}.", locale);
-		return "Main";
+		return "Main2";
 	}
 	
 	/* @RequestMapping(value = "/freeboard.do", method = {RequestMethod.POST,RequestMethod.GET})
