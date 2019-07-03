@@ -95,19 +95,19 @@
 -----------------------------------------------------------------*/
 
 @media (min-width: 576px) {
-	.container { max-width: 740px; }
+	.container { max-width: 540px; }
 }
 
 @media (min-width: 768px) {
-	.container { max-width: 1150px; }
+	.container { max-width: 750px; }
 }
 
 @media (min-width: 992px) {
-	.container { max-width: 1570px; }
+	.container { max-width: 970px; }
 }
 
 @media (min-width: 1200px) {
-	.container { max-width: 1770px; }
+	.container { max-width: 1370px; }
 }
 
 
@@ -194,13 +194,13 @@ h5,
 h6 {
 	color: #444;
 	font-weight: 600;
-	line-height: 1.5;
-	margin: 0 0 30px 0;
+	line-height: 1.0;
+	margin: 0 0 15px 0;
 	font-family: 'Raleway', sans-serif;
 }
 
 h5,
-h6 { margin-bottom: 20px; }
+h6 { margin-bottom: 10px; }
 
 h1 { font-size: 36px; }
 
@@ -236,7 +236,7 @@ blockquote,
 address,
 table,
 fieldset,
-form { margin-bottom: 30px; }
+form { margin-bottom: 20px; }
 
 small { font-family: 'Lato', sans-serif; }
 
@@ -1160,7 +1160,7 @@ body.stretched #header.full-header .container {
 	padding: 39px 15px;
 	color: #444;
 	font-weight: bold;
-	font-size: 13px;
+	font-size: 15px;                                                               /* 헤더폰트 사이즈 */
 	letter-spacing: 1px;
 	text-transform: uppercase;
 	font-family: 'Raleway', sans-serif;
@@ -1247,7 +1247,7 @@ body.no-superfish #primary-menu li:hover > .mega-menu-content { display: block; 
 #primary-menu ul ul li:first-child { border-top: 0; }
 
 #primary-menu ul ul li > a {
-	font-size: 12px;
+	font-size: 12px;                                                                          /*헤더메뉴 폰트사이즈*/
 	font-weight: 700;
 	color: #666;
 	padding-top: 10px;
@@ -1347,7 +1347,7 @@ body.stretched #header.full-header #primary-menu ul li.mega-menu .mega-menu-cont
 #primary-menu ul li .mega-menu-content.style-2 ul.mega-menu-column > li.mega-menu-title:first-child { margin-top: 0; }
 
 #primary-menu ul li .mega-menu-content.style-2 ul.mega-menu-column > li.mega-menu-title > a {
-	font-size: 13px;
+	font-size: 13px;                                                                                                     /*메가메뉴폰트사이즈*/
 	font-weight: bold;
 	font-family: 'Raleway', sans-serif;
 	letter-spacing: 1px;
@@ -3529,7 +3529,7 @@ body.stretched .container-fullwidth .breadcrumb { right: 60px !important; }
 	position: relative;
 	overflow: hidden;
 	background-color: #FFF;
-}
+}																						/*content영역 <p>태그 자간 설정*/
 
 #content p { line-height: 1.8; }
 
@@ -4886,7 +4886,7 @@ body.device-touch.device-xs .portfolio-notitle .portfolio-overlay { display: non
 .entry-image { margin-bottom: 30px; }
 
 .entry-image,
-.entry-image > a,
+.entry-image > a,																													
 .entry-image .slide a,
 .entry-image img {
 	display: block;
@@ -5320,7 +5320,7 @@ body:not(.device-touch) .entry-link {
 /* Individual Post
 -----------------------------------------------------------------*/
 
-.ipost .entry-image img { border-radius: 0; }
+.ipost .entry-image img { border-radius: 0; }                                                 /*뉴스 게임랜드 유투브 설정 */
 
 .ipost .entry-title h3,
 .ipost .entry-title h4 {
@@ -5386,9 +5386,9 @@ body:not(.device-touch) .entry-link {
 /* Small Post
 -----------------------------------------------------------------*/
 
-.spost,
+.spost,                                                                                        /*실시간채팅 게시판 미니게임존*/
 .mpost {
-	margin-top: 20px;
+	margin-top: 10px;
 	padding-top: 20px;
 	border-top: 1px dashed #E5E5E5;
 }
@@ -6625,7 +6625,7 @@ body:not(.device-touch) .button {
 
 .button.button-mini {
 	padding: 0 14px;
-	font-size: 11px;
+	font-size: 11px;																		/*버튼*/
 	height: 28px;
 	line-height: 28px;
 }
@@ -9117,7 +9117,7 @@ body:not(.device-touch) .social-icon i {
 
 .tabs {
 	position: relative;
-	margin: 0 0 30px 0;
+	margin: 0 0 30px 0;																												/*탬 설정*/
 }
 
 ul.tab-nav:not(.tab-nav-lg) {
@@ -9142,7 +9142,7 @@ ul.tab-nav:not(.tab-nav-lg) li:first-child {
 
 ul.tab-nav:not(.tab-nav-lg) li a {
 	display: block;
-	padding: 0 15px;
+	padding: 0 10px;
 	color: #444;
 	height: 40px;
 	line-height: 40px;
@@ -9306,7 +9306,7 @@ ul.tab-nav-lg.tab-nav-section li.ui-tabs-active:before {
 
 .tab-container {
 	position: relative;
-	padding: 20px 0 0;
+	padding: 20px 0 0;																												/*탭 하위메뉴 폰트*/
 }
 
 ul.tab-nav li a i {
@@ -11113,7 +11113,7 @@ fieldset[disabled] .sm-form-control {
 }
 
 label {
-	display: inline-block;
+	display: inline-block;                                                                                   /*폼?*/
 	font-size: 13px;
 	font-weight: 700;
 	font-family: 'Raleway', sans-serif;
@@ -13934,4 +13934,8 @@ body:not(.no-transition) #wrapper,
 	text-shadow: none !important;
 }
 
+/*by kin*/
+.col-lg-7:first-child{
+	text-overflow: ellipsis;max-width: 250px; padding-right: 40px; white-space: nowrap; overflow: hidden; font-weight: bold;
+}
 
