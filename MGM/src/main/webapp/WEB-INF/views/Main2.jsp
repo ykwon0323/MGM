@@ -13,6 +13,9 @@
 
 	<!-- Stylesheets
 	============================================= -->
+	<link
+	href="https://fonts.googleapis.com/css?family=Nanum+Gothic:400,700,800"
+	rel="stylesheet">
 	<link href="http://fonts.googleapis.com/css?family=Roboto+Slab:300,400,700%7CRoboto:400,500,700" rel="stylesheet" type="text/css" />
 	<link rel="stylesheet" href="resources/css/bootstrap.css" type="text/css" />
 	<link rel="stylesheet" href="resources/style.css" type="text/css" />
@@ -1046,17 +1049,16 @@
 						
 						
 						
-							<div class="row clearfix">
-						 <div class="line line-xs line-sports"></div> 
+							<div class="row clearfix"> 
 						<!-- <div class="fancy-title title-dotted-border">
 						
 						</div> -->
 						
 							
-								<div class="col-md-5 mt-4">
+								<div class="col-md-5 mt-5">
 								<div class="card border">
 											<div class="card-header p-3 pl-4 bg-transparent">
-												<h4 class="ls1 mb-0 uppercase t700" style="font-size: 110%;">커뮤니티</h4>
+												<h4 class="ls1 mb-0 uppercase t700" style="font-size: 120%;"><span class="text-warning"><i class="icon-chess-knight"></i></span> 커뮤니티</h4>
 											</div>
 											<div class="card-body">
 										<div class="scroll-wrap" style="height: 400px;">
@@ -1452,11 +1454,11 @@
 									</div>
 								</div>
 
-								<div class="col-md-7 mt-4">
+								<div class="col-md-7 mt-5">
 								<form action="#">
 								<div class="card border">
 											<div class="card-header p-3 pl-4 bg-transparent">										
-												<h4 class="ls1 mb-0 uppercase t700" style="font-size: 110%;">미니게임존</h4>
+												<h4 class="ls1 mb-0 uppercase t700" style="font-size: 120%;"><span style="color: black;"><i class="icon-gamepad"></i></span> 미니게임존</h4>
 											</div>
 											<div class="card-body nopadding">
 									<!-- Post Article -->

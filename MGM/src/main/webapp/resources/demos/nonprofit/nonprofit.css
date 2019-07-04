@@ -9,8 +9,8 @@
 /* Root Settings
 -----------------------------------------------------------------*/
 :root {
-	--themecolor:  #C6C09C;
-	--themecolorrgb: 198,192,156;
+	--themecolor:  #EAF4F4;
+	--themecolorrgb: 234, 244, 244;
 
 	/* Header Height */
 	--header-height:					70px;
@@ -21,7 +21,7 @@
 -----------------------------------------------------------------*/
 #primary-menu ul li > a.header-button {
 	border-top: 1px solid #EEE !important;
-	color: #C6C09C;
+	color: #EAF4F4;
 	color: var(--themecolor);
 }
 
@@ -126,7 +126,7 @@
 }
 
 .slider-feature a:hover {
-	background-color: #C6C09C;
+	background-color: #EAF4F4;
 	background-color: var(--themecolor);
 	transform: translateY(-2px);
 	z-index: 1;
@@ -221,7 +221,7 @@
 .oc-desc .skills li .progress:after {
 	content: "\e9e3";
 	font-family: 'font-icons';
-	color: #C6C09C;
+	color: #EAF4F4;
 	color: var(--themecolor);
 	position: absolute;
 	right: -8px;
@@ -338,7 +338,7 @@
 	z-index: -1;
 	border-radius: 6px;
 	opacity: .3;
-	background-color: #C6C09C;
+	background-color: #EAF4F4;
 	background-color: var(--themecolor);
 }
 
@@ -374,7 +374,7 @@
 .team-image img { border-radius: 6px }
 
 .team.full-border {
-	border: 5px solid  #C6C09C;
+	border: 5px solid  #EAF4F4;
 	border-color: var(--themecolor);
 	border-radius: 4px;
 }
@@ -393,7 +393,7 @@
 	width: 120px;
 	height: 120px;
 	line-height: 110px;
-	background-color:  #C6C09C;
+	background-color:  #EAF4F4;
 	background-color: var(--themecolor);
 	border-radius: 50%;
 	text-align: center;
@@ -474,7 +474,7 @@ body:not(.nonprofit-processing) .nonprofit-loader { display: none; }
 
 .fc-calendar .fc-row > div.fc-today,
 .fc-calendar .fc-row > div > div a, .fc-calendar .fc-row > div > div span {
-	background-color: #C6C09C;
+	background-color: #EAF4F4;
 	background-color: var(--themecolor);
 	box-shadow: none;
 }
@@ -551,7 +551,7 @@ body:not(.nonprofit-processing) .nonprofit-loader { display: none; }
 	width: 50px;
 	height: 50px;
 	border-radius: 8px;
-	background-color: #C6C09C;
+	background-color: #EAF4F4;
 	background-color: var(--themecolor);
 	color: #FFF;
 	cursor: pointer;
@@ -690,7 +690,7 @@ body:not(.floating-contact-processing) .floating-contact-loader { display: none;
 		opacity: 0;
 		content: '';
 		position: absolute;
-		border-bottom: 5px solid #C6C09C;;
+		border-bottom: 5px solid #EAF4F4;;
 		border-bottom: 5px solid var(--themecolor);
 		bottom: 0;
 		left: 50%;
@@ -712,7 +712,7 @@ body:not(.floating-contact-processing) .floating-contact-loader { display: none;
 	#primary-menu ul li > a.header-button {
 		padding: 13px 18px;
 		margin: 11px 0;
-		background-color: #C6C09C;
+		background-color: #EAF4F4;
 		background-color: var(--themecolor);
 		border-radius: 4px;
 		border-top: 0 !important;
@@ -786,7 +786,7 @@ body:not(.floating-contact-processing) .floating-contact-loader { display: none;
 		border-bottom-width: 70px;
 		border-bottom-width: var(--header-height);
 		border-bottom-style:  solid;
-		border-bottom-color: #C6C09C;
+		border-bottom-color: #EAF4F4;
 		border-bottom-color: var(--themecolor);
 		z-index: 0;
 	}
@@ -800,7 +800,7 @@ body:not(.floating-contact-processing) .floating-contact-loader { display: none;
 
 	#header-wrap,
 	#header.sticky-header #header-wrap {
-		background-color: #C6C09C;
+		background-color: #EAF4F4;
 		background-color: var(--themecolor);
 	}
 
