@@ -807,156 +807,7 @@
 
 		</section>
 		
-		<!-- <section id="slider" class="slider-element revslider-wrap clearfix">
-
-			<div class="rev_slider_wrapper" style="width: 100%;margin: 0 auto; background:#000;padding:0px;margin-top:0px;margin-bottom:0px;">
-				START REVOLUTION SLIDER 5.4.1 fullwidth mode
-				<div id="rev_slider_19_1" class="rev_slider fullwidthabanner" style="display:none;" data-version="5.4.1">
-					<ul>	SLIDE 
-						<li data-index="rs-48" data-transition="fade" data-slotamount="default" data-hideafterloop="0" data-hideslideonmobile="off" data-easein="default" data-easeout="default" data-masterspeed="300"  data-thumb="resources/ demos/news/images/carousel/thumbs/1.jpg"  data-rotate="0"  data-saveperformance="off"  data-title="How to Travel around Europe" data-param1="Travel" data-param2="Oct 24, 2017" data-param3="" data-param4="" data-param5="" data-param6="" data-param7="" data-param8="" data-param9="" data-param10="" data-description="">
-							MAIN IMAGE
-							<img src="resources/include/rs-plugin/demos/assets/images/dummy.png"  alt=""  data-lazyload="resources/demos/news/images/carousel/1.jpg" data-bgposition="center center" data-kenburns="on" data-duration="30000" data-ease="Linear.easeNone" data-scalestart="100" data-scaleend="120" data-rotatestart="0" data-rotateend="0" data-blurstart="0" data-blurend="0" data-offsetstart="0 0" data-offsetend="0 0" class="rev-slidebg" data-no-retina>
-							LAYERS
-
-							LAYER NR. 1
-							<div class="tp-caption tp-shape tp-shapewrapper  tp-resizeme  tp-gradientstyle" id="slide-48-layer-2" data-x="['center','center','center','center']" data-hoffset="['0','0','0','0']" data-y="['bottom','bottom','bottom','bottom']" data-voffset="['0','0','0','0']" data-width="full" data-height="['200','200','200','250']" data-whitespace="nowrap" data-type="shape" data-basealign="slide" data-responsive_offset="on" data-frames='[{"from":"y:50px;opacity:0;","speed":2000,"to":"o:1;","delay":0,"ease":"Power4.easeOut"},{"delay":"wait","speed":300,"to":"opacity:0;","ease":"nothing"}]' data-textAlign="['left','left','left','left']" data-paddingtop="[0,0,0,0]" data-paddingright="[0,0,0,0]" data-paddingbottom="[0,0,0,0]" data-paddingleft="[0,0,0,0]" style="z-index: 5;"> </div>
-
-							LAYER NR. 2
-							<div class="tp-caption entry-categories bg-travel clearfix tp-resizeme" id="slide-48-layer-3" data-x="['left','left','left','left']" data-hoffset="['40','40','30','20']" data-y="['bottom','bottom','bottom','bottom']" data-voffset="['175','165','160','175']" data-fontsize="10" data-width="auto" data-height="none" data-whitespace="normal" data-type="text" data-actions='' data-basealign="slide" data-responsive_offset="on" data-frames='[{"from":"y:20px;opacity:0;","speed":2000,"to":"o:1;","delay":0,"ease":"Power4.easeOut"},{"delay":"wait","speed":300,"to":"opacity:0;","ease":"nothing"}]' data-textAlign="['left','left','left','left']" style="z-index: 6; text-shadow: none;border-radius: 2px; left: auto; bottom:auto; letter-spacing: 1px"><a href="#">Travel</a></div>
-
-							LAYER NR. 3
-							<a class="tp-caption font-primary tp-resizeme"
-								href="#" target="_self" id="slide-48-layer-4" data-x="['left','left','left','left']" data-hoffset="['40','40','30','20']" data-y="['bottom','bottom','bottom','bottom']" data-voffset="['125','120','130','118']" data-fontsize="['40','35','25','25']" data-lineheight="['40','35','25','24']" data-width="['580','480','340','260']" data-height="none" data-whitespace="normal" data-type="text" data-actions='' data-basealign="slide" data-responsive_offset="on" data-frames='[{"from":"y:20px;opacity:0;","speed":2000,"to":"o:1;","delay":200,"ease":"Power4.easeOut"},{"delay":"wait","speed":300,"to":"opacity:0;","ease":"nothing"}]' data-textAlign="['left','left','left','left']" data-paddingtop="[0,0,0,0]" data-paddingright="[0,0,0,0]" data-paddingbottom="[0,0,0,0]" data-paddingleft="[0,0,0,0]" style="z-index: 6; min-width: 580px; max-width: 580px; white-space: normal; font-size: 40px; line-height: 40px; font-weight: 600; color: rgba(255,255,255,1);text-decoration: none;">How to Travel around Europe</a>
-
-							LAYER NR. 4
-							<div class="tp-caption   tp-resizeme" id="slide-48-layer-5" data-x="['left','left','left','left']" data-hoffset="['40','40','30','20']" data-y="['bottom','bottom','bottom','bottom']" data-voffset="['65','65','48','48']" data-width="['580','480','340','260']" data-fontsize="['18','18','16','14']" data-lineheight="['26','24','24','20']" data-height="none" data-whitespace="normal" data-type="text" data-basealign="slide" data-responsive_offset="on" data-frames='[{"from":"y:20px;opacity:0;","speed":2000,"to":"o:1;","delay":400,"ease":"Power4.easeOut"},{"delay":"wait","speed":300,"to":"opacity:0;","ease":"nothing"}]' data-textAlign="['left','left','left','left']" data-paddingtop="[0,0,0,0]" data-paddingright="[0,0,0,0]" data-paddingbottom="[0,0,0,0]" data-paddingleft="[0,0,0,0]" style="z-index: 7; min-width: 700px; max-width: 700px; white-space: normal; font-size: 18px; line-height: 26px; font-weight: 400; color: #DDD; font-family: 'Roboto', sans-serif;">The only way to make sense out of change is to plunge into it, move with it, and join the dance.</div>
-
-							LAYER NR. 5
-							<div class="tp-caption tp-resizeme" id="slide-48-layer-6" data-x="['left','left','left','left']" data-hoffset="['40','40','30','20']" data-y="['bottom','bottom','bottom','bottom']" data-voffset="['28','28','20','20']"  data-fontsize="14"  data-whitespace="normal" data-type="text" data-actions='' data-basealign="slide" data-responsive_offset="on" data-frames='[{"from":"y:20px;opacity:0;","speed":2000,"to":"o:1;","delay":600,"ease":"Power4.easeOut"},{"delay":"wait","speed":300,"to":"opacity:0;","ease":"nothing"}]' data-textAlign="['left','left','left','left']" style="min-width: 306px; max-width: 306px;z-index: 6; text-shadow: none; color: #DDD !important; font-size: 20px; line-height: 20px; font-weight: 600; font-family: 'Roboto', sans-serif;">John Doe - <i class="icon-time" style="position: relative; top: 1px;"></i> Oct 24,2017</div>
-
-						</li>
-						SLIDE 
-						<li data-index="rs-49" data-transition="fade" data-slotamount="default" data-hideafterloop="0" data-hideslideonmobile="off" data-easein="default" data-easeout="default" data-masterspeed="300"  data-thumb="resources/demos/news/images/carousel/thumbs/2.jpg"  data-rotate="0"  data-saveperformance="off"  data-title="The sky was cloudless" data-param1="Market" data-param2="Sep 12, 2017" data-param3="" data-param4="" data-param5="" data-param6="" data-param7="" data-param8="" data-param9="" data-param10="" data-description="">
-							MAIN IMAGE
-							<img src="resources/include/rs-plugin/demos/assets/images/dummy.png"  alt=""  data-lazyload="resources/demos/news/images/carousel/2.jpg" data-bgposition="center center" data-kenburns="on" data-duration="30000" data-ease="Linear.easeNone" data-scalestart="100" data-scaleend="120" data-rotatestart="0" data-rotateend="0" data-blurstart="0" data-blurend="0" data-offsetstart="0 0" data-offsetend="0 0" class="rev-slidebg" data-no-retina>
-							LAYERS
-
-							LAYER NR. 1
-							<div class="tp-caption tp-shape tp-shapewrapper  tp-resizeme  tp-gradientstyle" id="slide-49-layer-2" data-x="['center','center','center','center']" data-hoffset="['0','0','0','0']" data-y="['bottom','bottom','bottom','bottom']" data-voffset="['0','0','0','0']" data-width="full" data-height="['200','200','200','250']" data-whitespace="nowrap" data-type="shape" data-basealign="slide" data-responsive_offset="on" data-frames='[{"from":"y:50px;opacity:0;","speed":2000,"to":"o:1;","delay":0,"ease":"Power4.easeOut"},{"delay":"wait","speed":300,"to":"opacity:0;","ease":"nothing"}]' data-textAlign="['left','left','left','left']" data-paddingtop="[0,0,0,0]" data-paddingright="[0,0,0,0]" data-paddingbottom="[0,0,0,0]" data-paddingleft="[0,0,0,0]" style="z-index: 9;"> </div>
-
-							LAYER NR. 2
-							<div class="tp-caption bg-market entry-categories clearfix tp-resizeme" id="slide-49-layer-3" data-x="['left','left','left','left']" data-hoffset="['40','40','30','20']" data-y="['bottom','bottom','bottom','bottom']" data-voffset="['175','165','160','175']" data-fontsize="10" data-width="auto" data-height="none" data-whitespace="normal" data-type="text" data-actions='' data-basealign="slide" data-responsive_offset="on" data-frames='[{"from":"y:20px;opacity:0;","speed":2000,"to":"o:1;","delay":0,"ease":"Power4.easeOut"},{"delay":"wait","speed":300,"to":"opacity:0;","ease":"nothing"}]' data-textAlign="['left','left','left','left']" style="z-index: 6; text-shadow: none;border-radius: 2px; left: auto; bottom:auto; letter-spacing: 1px"><a href="#">Market</a></div>
-
-							LAYER NR. 3
-							<a class="tp-caption font-primary  tp-resizeme"
-								href="#" target="_self" id="slide-49-layer-4" data-x="['left','left','left','left']" data-hoffset="['40','40','30','20']" data-y="['bottom','bottom','bottom','bottom']" data-voffset="['125','120','130','118']" data-fontsize="['40','35','25','25']" data-lineheight="['40','35','25','24']" data-width="['580','480','340','260']" data-height="none" data-whitespace="normal" data-type="text" data-actions='' data-basealign="slide" data-responsive_offset="on" data-frames='[{"from":"y:20px;opacity:0;","speed":2000,"to":"o:1;","delay":200,"ease":"Power4.easeOut"},{"delay":"wait","speed":300,"to":"opacity:0;","ease":"nothing"}]' data-textAlign="['left','left','left','left']" data-paddingtop="[0,0,0,0]" data-paddingright="[0,0,0,0]" data-paddingbottom="[0,0,0,0]" data-paddingleft="[0,0,0,0]" style="z-index: 6; min-width: 580px; max-width: 580px; white-space: normal; font-size: 40px; line-height: 40px; font-weight: 600; color: rgba(255,255,255,1);text-decoration: none;">The sky was cloudless</a>
-
-							LAYER NR. 4
-							<div class="tp-caption   tp-resizeme" id="slide-49-layer-5" data-x="['left','left','left','left']" data-hoffset="['40','40','30','20']" data-y="['bottom','bottom','bottom','bottom']" data-voffset="['65','65','48','48']" data-width="['580','480','340','260']" data-fontsize="['18','18','16','14']" data-lineheight="['26','24','24','20']" data-height="none" data-whitespace="normal" data-type="text" data-basealign="slide" data-responsive_offset="on" data-frames='[{"from":"y:20px;opacity:0;","speed":2000,"to":"o:1;","delay":400,"ease":"Power4.easeOut"},{"delay":"wait","speed":300,"to":"opacity:0;","ease":"nothing"}]' data-textAlign="['left','left','left','left']" data-paddingtop="[0,0,0,0]" data-paddingright="[0,0,0,0]" data-paddingbottom="[0,0,0,0]" data-paddingleft="[0,0,0,0]" style="z-index: 7; min-width: 700px; max-width: 700px; white-space: normal; font-size: 18px; line-height: 26px; font-weight: 400; color: #DDD; font-family: 'Roboto', sans-serif;">The only way to make sense out of change is to plunge into it, move with it, and join the dance.</div>
-
-							LAYER NR. 5
-							<div class="tp-caption tp-resizeme" id="slide-49-layer-6" data-x="['left','left','left','left']" data-hoffset="['40','40','30','20']" data-y="['bottom','bottom','bottom','bottom']" data-voffset="['28','28','20','20']"  data-fontsize="14"  data-whitespace="normal" data-type="text" data-actions='' data-basealign="slide" data-responsive_offset="on" data-frames='[{"from":"y:20px;opacity:0;","speed":2000,"to":"o:1;","delay":600,"ease":"Power4.easeOut"},{"delay":"wait","speed":300,"to":"opacity:0;","ease":"nothing"}]' data-textAlign="['left','left','left','left']" style="min-width: 306px; max-width: 306px;z-index: 6; text-shadow: none; color: #DDD !important; font-size: 20px; line-height: 20px; font-weight: 600; font-family: 'Roboto', sans-serif;">Justin Case - <i class="icon-time" style="position: relative; top: 1px;"></i> Sep 12,2016</div>
-						</li>
-						SLIDE 
-						<li data-index="rs-50" data-transition="fade" data-slotamount="default" data-hideafterloop="0" data-hideslideonmobile="off"  data-easein="default" data-easeout="default" data-masterspeed="300"  data-thumb="resources/demos/news/images/carousel/thumbs/3.jpg"  data-rotate="0"  data-saveperformance="off"  data-title="The History Of Fashion" data-param1="Fashion" data-param2="Sep 03, 2017" data-param3="" data-param4="" data-param5="" data-param6="" data-param7="" data-param8="" data-param9="" data-param10="" data-description="">
-							MAIN IMAGE
-							<img src="resources/include/rs-plugin/demos/assets/images/dummy.png"  alt=""  data-lazyload="resources/demos/news/images/carousel/3.jpg" data-bgposition="center center" data-kenburns="on" data-duration="30000" data-ease="Linear.easeNone" data-scalestart="100" data-scaleend="120" data-rotatestart="0" data-rotateend="0" data-blurstart="0" data-blurend="0" data-offsetstart="0 0" data-offsetend="0 0" class="rev-slidebg" data-no-retina>
-							LAYERS
-
-							LAYER NR. 1
-							<div class="tp-caption tp-shape tp-shapewrapper  tp-resizeme  tp-gradientstyle" id="slide-50-layer-2" data-x="['center','center','center','center']" data-hoffset="['0','0','0','0']" data-y="['bottom','bottom','bottom','bottom']" data-voffset="['0','0','0','0']" data-width="full" data-height="['200','200','200','250']" data-whitespace="nowrap" data-type="shape" data-basealign="slide" data-responsive_offset="on" data-frames='[{"from":"y:50px;opacity:0;","speed":2000,"to":"o:1;","delay":0,"ease":"Power4.easeOut"},{"delay":"wait","speed":300,"to":"opacity:0;","ease":"nothing"}]' data-textAlign="['left','left','left','left']" data-paddingtop="[0,0,0,0]" data-paddingright="[0,0,0,0]" data-paddingbottom="[0,0,0,0]" data-paddingleft="[0,0,0,0]" style="z-index: 13;"> </div>
-
-							LAYER NR. 2
-							<div class="tp-caption bg-fashion entry-categories clearfix tp-resizeme" id="slide-50-layer-3" data-x="['left','left','left','left']" data-hoffset="['40','40','30','20']" data-y="['bottom','bottom','bottom','bottom']" data-voffset="['175','165','160','175']" data-fontsize="10" data-width="auto" data-height="none" data-whitespace="normal" data-type="text" data-actions='' data-basealign="slide" data-responsive_offset="on" data-frames='[{"from":"y:20px;opacity:0;","speed":2000,"to":"o:1;","delay":0,"ease":"Power4.easeOut"},{"delay":"wait","speed":300,"to":"opacity:0;","ease":"nothing"}]' data-textAlign="['left','left','left','left']" style="z-index: 6; text-shadow: none;border-radius: 2px; left: auto; bottom:auto; letter-spacing: 1px"><a href="#">Fashion</a></div>
-
-							LAYER NR. 3
-							<a class="tp-caption  font-primary tp-resizeme"
-								href="#" target="_self" id="slide-50-layer-4" data-x="['left','left','left','left']" data-hoffset="['40','40','30','20']" data-y="['bottom','bottom','bottom','bottom']" data-voffset="['125','120','130','118']" data-fontsize="['40','35','25','25']" data-lineheight="['40','35','25','24']" data-width="['580','480','340','260']" data-height="none" data-whitespace="normal" data-type="text" data-actions='' data-basealign="slide" data-responsive_offset="on" data-frames='[{"from":"y:20px;opacity:0;","speed":2000,"to":"o:1;","delay":200,"ease":"Power4.easeOut"},{"delay":"wait","speed":300,"to":"opacity:0;","ease":"nothing"}]' data-textAlign="['left','left','left','left']" data-paddingtop="[0,0,0,0]" data-paddingright="[0,0,0,0]" data-paddingbottom="[0,0,0,0]" data-paddingleft="[0,0,0,0]" style="z-index: 6; min-width: 580px; max-width: 580px; white-space: normal; font-size: 40px; line-height: 40px; font-weight: 600; color: rgba(255,255,255,1);text-decoration: none;">The History Of Fashion</a>
-
-							LAYER NR. 4
-							<div class="tp-caption   tp-resizeme" id="slide-50-layer-5" data-x="['left','left','left','left']" data-hoffset="['40','40','30','20']" data-y="['bottom','bottom','bottom','bottom']" data-voffset="['65','65','48','48']" data-width="['580','480','340','260']" data-fontsize="['18','18','16','14']" data-lineheight="['26','24','24','20']" data-height="none" data-whitespace="normal" data-type="text" data-basealign="slide" data-responsive_offset="on" data-frames='[{"from":"y:20px;opacity:0;","speed":2000,"to":"o:1;","delay":400,"ease":"Power4.easeOut"},{"delay":"wait","speed":300,"to":"opacity:0;","ease":"nothing"}]' data-textAlign="['left','left','left','left']" data-paddingtop="[0,0,0,0]" data-paddingright="[0,0,0,0]" data-paddingbottom="[0,0,0,0]" data-paddingleft="[0,0,0,0]" style="z-index: 7; min-width: 700px; max-width: 700px; white-space: normal; font-size: 18px; line-height: 26px; font-weight: 400; color: #DDD; font-family: 'Roboto', sans-serif;">The only way to make sense out of change is to plunge into it, move with it, and join the dance.</div>
-
-							LAYER NR. 5
-							<div class="tp-caption tp-resizeme" id="slide-50-layer-6" data-x="['left','left','left','left']" data-hoffset="['40','40','30','20']" data-y="['bottom','bottom','bottom','bottom']" data-voffset="['28','28','20','20']"  data-fontsize="14"  data-whitespace="normal" data-type="text" data-actions='' data-basealign="slide" data-responsive_offset="on" data-frames='[{"from":"y:20px;opacity:0;","speed":2000,"to":"o:1;","delay":600,"ease":"Power4.easeOut"},{"delay":"wait","speed":300,"to":"opacity:0;","ease":"nothing"}]' data-textAlign="['left','left','left','left']" style="min-width: 306px; max-width: 306px;z-index: 6; text-shadow: none; color: #DDD !important; font-size: 20px; line-height: 20px; font-weight: 600; font-family: 'Roboto', sans-serif;">Bailey Wonger - <i class="icon-time" style="position: relative; top: 1px;"></i> Sep 03,2016</div>
-						</li>
-						SLIDE 
-						<li data-index="rs-51" data-transition="fade" data-slotamount="default" data-hideafterloop="0" data-hideslideonmobile="off"  data-easein="default" data-easeout="default" data-masterspeed="300"  data-thumb="resources/demos/news/images/carousel/thumbs/4.jpg"  data-rotate="0"  data-saveperformance="off"  data-title="Things That Make You Love" data-param1="Lifestyle" data-param2="Jul 30, 2017" data-param3="" data-param4="" data-param5="" data-param6="" data-param7="" data-param8="" data-param9="" data-param10="" data-description="">
-							MAIN IMAGE
-							<img src="resources/include/rs-plugin/demos/assets/images/dummy.png"  alt=""  data-lazyload="resources/demos/news/images/carousel/4.jpg" data-bgposition="center center" data-kenburns="on" data-duration="30000" data-ease="Linear.easeNone" data-scalestart="100" data-scaleend="120" data-rotatestart="0" data-rotateend="0" data-blurstart="0" data-blurend="0" data-offsetstart="0 0" data-offsetend="0 0" class="rev-slidebg" data-no-retina>
-							LAYERS
-
-							LAYER NR. 1
-							<div class="tp-caption tp-shape tp-shapewrapper  tp-resizeme  tp-gradientstyle" id="slide-51-layer-2" data-x="['center','center','center','center']" data-hoffset="['0','0','0','0']" data-y="['bottom','bottom','bottom','bottom']" data-voffset="['0','0','0','0']" data-width="full" data-height="['200','200','200','250']" data-whitespace="nowrap" data-type="shape" data-basealign="slide" data-responsive_offset="on" data-frames='[{"from":"y:50px;opacity:0;","speed":2000,"to":"o:1;","delay":0,"ease":"Power4.easeOut"},{"delay":"wait","speed":300,"to":"opacity:0;","ease":"nothing"}]' data-textAlign="['left','left','left','left']" data-paddingtop="[0,0,0,0]" data-paddingright="[0,0,0,0]" data-paddingbottom="[0,0,0,0]" data-paddingleft="[0,0,0,0]" style="z-index: 17;"> </div>
-
-							LAYER NR. 2
-							<div class="tp-caption bg-home entry-categories clearfix tp-resizeme" id="slide-51-layer-3" data-x="['left','left','left','left']" data-hoffset="['40','40','30','20']" data-y="['bottom','bottom','bottom','bottom']" data-voffset="['175','165','160','175']" data-fontsize="10" data-width="auto" data-height="none" data-whitespace="normal" data-type="text" data-actions='' data-basealign="slide" data-responsive_offset="on" data-frames='[{"from":"y:20px;opacity:0;","speed":2000,"to":"o:1;","delay":0,"ease":"Power4.easeOut"},{"delay":"wait","speed":300,"to":"opacity:0;","ease":"nothing"}]' data-textAlign="['left','left','left','left']" style="z-index: 6; text-shadow: none;border-radius: 2px; left: auto; bottom:auto; letter-spacing: 1px"><a href="#">Lifestyle</a></div>
-
-							LAYER NR. 3
-							<a class="tp-caption font-primary  tp-resizeme"
-								href="#" target="_self" id="slide-51-layer-4" data-x="['left','left','left','left']" data-hoffset="['40','40','30','20']" data-y="['bottom','bottom','bottom','bottom']" data-voffset="['125','120','130','118']" data-fontsize="['40','35','25','25']" data-lineheight="['40','35','25','24']" data-width="['580','480','340','260']" data-height="none" data-whitespace="normal" data-type="text" data-actions='' data-basealign="slide" data-responsive_offset="on" data-frames='[{"from":"y:20px;opacity:0;","speed":2000,"to":"o:1;","delay":200,"ease":"Power4.easeOut"},{"delay":"wait","speed":300,"to":"opacity:0;","ease":"nothing"}]' data-textAlign="['left','left','left','left']" data-paddingtop="[0,0,0,0]" data-paddingright="[0,0,0,0]" data-paddingbottom="[0,0,0,0]" data-paddingleft="[0,0,0,0]" style="z-index: 6; min-width: 580px; max-width: 580px; white-space: normal; font-size: 40px; line-height: 40px; font-weight: 600; color: rgba(255,255,255,1);text-decoration: none;">Things That Make You Love</a>
-
-							LAYER NR. 4
-							<div class="tp-caption   tp-resizeme" id="slide-51-layer-5" data-x="['left','left','left','left']" data-hoffset="['40','40','30','20']" data-y="['bottom','bottom','bottom','bottom']" data-voffset="['65','65','48','48']" data-width="['580','480','340','260']" data-fontsize="['18','18','16','14']" data-lineheight="['26','24','24','20']" data-height="none" data-whitespace="normal" data-type="text" data-basealign="slide" data-responsive_offset="on" data-frames='[{"from":"y:20px;opacity:0;","speed":2000,"to":"o:1;","delay":400,"ease":"Power4.easeOut"},{"delay":"wait","speed":300,"to":"opacity:0;","ease":"nothing"}]' data-textAlign="['left','left','left','left']" data-paddingtop="[0,0,0,0]" data-paddingright="[0,0,0,0]" data-paddingbottom="[0,0,0,0]" data-paddingleft="[0,0,0,0]" style="z-index: 7; min-width: 700px; max-width: 700px; white-space: normal; font-size: 18px; line-height: 26px; font-weight: 400; color: #DDD; font-family: 'Roboto', sans-serif;">The only way to make sense out of change is to plunge into it, move with it, and join the dance.</div>
-
-							LAYER NR. 5
-							<div class="tp-caption tp-resizeme" id="slide-51-layer-6" data-x="['left','left','left','left']" data-hoffset="['40','40','30','20']" data-y="['bottom','bottom','bottom','bottom']" data-voffset="['28','28','20','20']"  data-fontsize="14"  data-whitespace="normal" data-type="text" data-actions='' data-basealign="slide" data-responsive_offset="on" data-frames='[{"from":"y:20px;opacity:0;","speed":2000,"to":"o:1;","delay":600,"ease":"Power4.easeOut"},{"delay":"wait","speed":300,"to":"opacity:0;","ease":"nothing"}]' data-textAlign="['left','left','left','left']" style="min-width: 306px; max-width: 306px;z-index: 6; text-shadow: none; color: #DDD !important; font-size: 20px; line-height: 20px; font-weight: 600; font-family: 'Roboto', sans-serif;">Guy Mann - <i class="icon-time" style="position: relative; top: 1px;"></i> Jul 30,2016</div>
-						</li>
-
-						SLIDE 
-						<li data-index="rs-52" data-transition="fade" data-slotamount="default" data-hideafterloop="0" data-hideslideonmobile="off" data-easein="default" data-easeout="default" data-masterspeed="300" data-thumb="demos/news/images/carousel/thumbs/5.jpg" data-rotate="0" data-saveperformance="off" data-title="Real Madrid vs Chelsea Highlights" data-param1="YouTube Video" data-param2="Apr 04, 2017" data-param3="" data-param4="" data-param5="" data-param6="" data-param7="" data-param8="" data-param9="" data-param10="" data-description="">
-
-							MAIN IMAGE
-							<img src="resources/include/rs-plugin/demos/assets/images/dummy.png" alt="" data-lazyload="resources/demos/news/images/carousel/5.jpg" data-bgposition="center center" data-bgfit="cover" class="rev-slidebg" data-no-retina>
-
-							LAYERS
-							BACKGROUND VIDEO LAYER
-							<div class="rs-background-video-layer" data-forcerewind="on" data-volume="mute" data-videowidth="100%" data-videoheight="580" data-ytid="KXRdpLPaGKA" data-videoattributes="version=3&amp;enablejsapi=1&amp;html5=1&amp;hd=1&wmode=opaque&showinfo=0&rel=0;;origin=http://localhost;" data-videorate="1" data-nextslideatend="true" data-videopreload="auto" data-videoloop="loopandnoslidestop" data-forceCover="1" data-aspectratio="16:9" data-autoplay="true" data-autoplayonlyfirsttime="false"></div>
-
-							LAYER NR. 1
-							<div class="tp-caption tp-shape tp-shapewrapper  tp-resizeme  tp-gradientstyle" id="slide-52-layer-2" data-x="['center','center','center','center']" data-hoffset="['0','0','0','0']" data-y="['bottom','bottom','bottom','bottom']" data-voffset="['0','0','0','0']" data-width="full" data-height="['200','200','200','250']" data-whitespace="nowrap" data-type="shape" data-basealign="slide" data-responsive_offset="on" data-frames='[{"from":"y:50px;opacity:0;","speed":2000,"to":"o:1;","delay":0,"ease":"Power4.easeOut"},{"delay":"wait","speed":300,"to":"opacity:0;","ease":"nothing"}]' data-textAlign="['left','left','left','left']" data-paddingtop="[0,0,0,0]" data-paddingright="[0,0,0,0]" data-paddingbottom="[0,0,0,0]" data-paddingleft="[0,0,0,0]" style="z-index: 21;"> </div>
-
-							LAYER NR. 2
-							<div class="tp-caption bg-sports entry-categories clearfix tp-resizeme" id="slide-52-layer-3" data-x="['left','left','left','left']" data-hoffset="['40','40','30','20']" data-y="['bottom','bottom','bottom','bottom']" data-voffset="['175','165','195','180']" data-fontsize="10" data-width="auto" data-height="none" data-whitespace="normal" data-type="text" data-actions='' data-basealign="slide" data-responsive_offset="on" data-frames='[{"from":"y:20px;opacity:0;","speed":2000,"to":"o:1;","delay":0,"ease":"Power4.easeOut"},{"delay":"wait","speed":300,"to":"opacity:0;","ease":"nothing"}]' data-textAlign="['left','left','left','left']" style="z-index: 6; text-shadow: none;border-radius: 2px; left: auto; bottom:auto; letter-spacing: 1px"><a href="#">Sports</a></div>
-
-							LAYER NR. 3
-							<a class="tp-caption  font-primary tp-resizeme"
-								href="#" target="_self" id="slide-52-layer-4" data-x="['left','left','left','left']" data-hoffset="['40','40','30','20']" data-y="['bottom','bottom','bottom','bottom']" data-voffset="['125','120','130','118']" data-fontsize="['40','35','25','25']" data-lineheight="['40','40','28','26']" data-width="['800','680','340','260']" data-height="none" data-whitespace="normal" data-type="text" data-actions='' data-basealign="slide" data-responsive_offset="on" data-frames='[{"from":"y:20px;opacity:0;","speed":2000,"to":"o:1;","delay":200,"ease":"Power4.easeOut"},{"delay":"wait","speed":300,"to":"opacity:0;","ease":"nothing"}]' data-textAlign="['left','left','left','left']" data-paddingtop="[0,0,0,0]" data-paddingright="[0,0,0,0]" data-paddingbottom="[0,0,0,0]" data-paddingleft="[0,0,0,0]" style="z-index: 6; min-width: 580px; max-width: 580px; white-space: normal; font-size: 40px; line-height: 40px; font-weight: 600; color: rgba(255,255,255,1);text-decoration: none;">Real Madrid vs Chelsea Highlights</a>
-
-							LAYER NR. 4
-							<div class="tp-caption   tp-resizeme" id="slide-52-layer-5" data-x="['left','left','left','left']" data-hoffset="['40','40','30','20']" data-y="['bottom','bottom','bottom','bottom']" data-voffset="['65','65','48','48']" data-width="['580','480','340','260']" data-fontsize="['18','18','16','14']" data-lineheight="['26','24','24','20']" data-height="none" data-whitespace="normal" data-type="text" data-basealign="slide" data-responsive_offset="on" data-frames='[{"from":"y:20px;opacity:0;","speed":2000,"to":"o:1;","delay":400,"ease":"Power4.easeOut"},{"delay":"wait","speed":300,"to":"opacity:0;","ease":"nothing"}]' data-textAlign="['left','left','left','left']" data-paddingtop="[0,0,0,0]" data-paddingright="[0,0,0,0]" data-paddingbottom="[0,0,0,0]" data-paddingleft="[0,0,0,0]" style="z-index: 7; min-width: 700px; max-width: 700px; white-space: normal; font-size: 18px; line-height: 26px; font-weight: 400; color: #DDD; font-family: 'Roboto', sans-serif;">The only way to make sense out of change is to plunge into it, move with it, and join the dance.</div>
-
-							LAYER NR. 5
-							<div class="tp-caption tp-resizeme" id="slide-52-layer-6" data-x="['left','left','left','left']" data-hoffset="['40','40','30','20']" data-y="['bottom','bottom','bottom','bottom']" data-voffset="['28','28','20','20']"  data-fontsize="14"  data-whitespace="normal" data-type="text" data-actions='' data-basealign="slide" data-responsive_offset="on" data-frames='[{"from":"y:20px;opacity:0;","speed":2000,"to":"o:1;","delay":600,"ease":"Power4.easeOut"},{"delay":"wait","speed":300,"to":"opacity:0;","ease":"nothing"}]' data-textAlign="['left','left','left','left']" style="min-width: 306px; max-width: 306px;z-index: 6; text-shadow: none; color: #DDD !important; font-size: 20px; line-height: 20px; font-weight: 600; font-family: 'Roboto', sans-serif;">Hugh Saturation - <i class="icon-time" style="position: relative; top: 1px;"></i> Apr 04,2017</div>
-						</li>
-
-						SLIDE 
-						<li data-index="rs-53" data-transition="fade" data-slotamount="default" data-hideafterloop="0" data-hideslideonmobile="off" data-easein="default" data-easeout="default" data-masterspeed="300" data-thumb="resources/demos/news/images/carousel/thumbs/6.jpg" data-rotate="0" data-saveperformance="off" data-title="How To Have A Fantastic Tech" data-param1="Tech" data-param2="Mar 11, 2017" data-param3="" data-param4="" data-param5="" data-param6="" data-param7="" data-param8="" data-param9="" data-param10="" data-description="">
-							MAIN IMAGE
-							<img src="resources/include/rs-plugin/demos/assets/images/dummy.png" alt="" data-lazyload="resources/demos/news/images/carousel/6.jpg" data-bgposition="center center" data-kenburns="on" data-duration="30000" data-ease="Linear.easeNone" data-scalestart="100" data-scaleend="120" data-rotatestart="0" data-rotateend="0" data-blurstart="0" data-blurend="0" data-offsetstart="0 0" data-offsetend="0 0" class="rev-slidebg" data-no-retina>
-
-							LAYERS
-							LAYER NR. 1
-							<div class="tp-caption tp-shape tp-shapewrapper  tp-resizeme  tp-gradientstyle" id="slide-53-layer-2" data-x="['center','center','center','center']" data-hoffset="['0','0','0','0']" data-y="['bottom','bottom','bottom','bottom']" data-voffset="['0','0','0','0']" data-width="full" data-height="['200','200','200','250']" data-whitespace="nowrap" data-type="shape" data-basealign="slide" data-responsive_offset="on" data-frames='[{"from":"y:50px;opacity:0;","speed":2000,"to":"o:1;","delay":0,"ease":"Power4.easeOut"},{"delay":"wait","speed":300,"to":"opacity:0;","ease":"nothing"}]' data-textAlign="['left','left','left','left']" data-paddingtop="[0,0,0,0]" data-paddingright="[0,0,0,0]" data-paddingbottom="[0,0,0,0]" data-paddingleft="[0,0,0,0]" style="z-index: 25;"> </div>
-
-							LAYER NR. 2
-							<div class="tp-caption bg-tech entry-categories clearfix tp-resizeme" id="slide-53-layer-3" data-x="['left','left','left','left']" data-hoffset="['40','40','30','20']" data-y="['bottom','bottom','bottom','bottom']" data-voffset="['175','165','195','180']" data-fontsize="10" data-width="auto" data-height="none" data-whitespace="normal" data-type="text" data-actions='' data-basealign="slide" data-responsive_offset="on" data-frames='[{"from":"y:20px;opacity:0;","speed":2000,"to":"o:1;","delay":0,"ease":"Power4.easeOut"},{"delay":"wait","speed":300,"to":"opacity:0;","ease":"nothing"}]' data-textAlign="['left','left','left','left']" style="z-index: 6; text-shadow: none;border-radius: 2px; left: auto; bottom:auto; letter-spacing: 1px"><a href="#">Tech</a></div>
-
-							LAYER NR. 3
-							<a class="tp-caption font-primary  tp-resizeme"
-								href="#" target="_self" id="slide-53-layer-4" data-x="['left','left','left','left']" data-hoffset="['40','40','30','20']" data-y="['bottom','bottom','bottom','bottom']" data-voffset="['125','120','130','118']" data-fontsize="['40','35','25','25']" data-lineheight="['40','40','28','26']" data-width="['800','680','340','260']" data-height="none" data-whitespace="normal" data-type="text" data-actions='' data-basealign="slide" data-responsive_offset="on" data-frames='[{"from":"y:20px;opacity:0;","speed":2000,"to":"o:1;","delay":200,"ease":"Power4.easeOut"},{"delay":"wait","speed":300,"to":"opacity:0;","ease":"nothing"}]' data-textAlign="['left','left','left','left']" data-paddingtop="[0,0,0,0]" data-paddingright="[0,0,0,0]" data-paddingbottom="[0,0,0,0]" data-paddingleft="[0,0,0,0]" style="z-index: 6; min-width: 580px; max-width: 580px; white-space: normal; font-size: 40px; line-height: 40px; font-weight: 600; color: rgba(255,255,255,1);text-decoration: none;">How To Have A Fantastic Tech</a>
-
-							LAYER NR. 4
-							<div class="tp-caption   tp-resizeme" id="slide-53-layer-5" data-x="['left','left','left','left']" data-hoffset="['40','40','30','20']" data-y="['bottom','bottom','bottom','bottom']" data-voffset="['65','65','48','48']" data-width="['580','480','340','260']" data-fontsize="['18','18','16','14']" data-lineheight="['26','24','24','20']" data-height="none" data-whitespace="normal" data-type="text" data-basealign="slide" data-responsive_offset="on" data-frames='[{"from":"y:20px;opacity:0;","speed":2000,"to":"o:1;","delay":400,"ease":"Power4.easeOut"},{"delay":"wait","speed":300,"to":"opacity:0;","ease":"nothing"}]' data-textAlign="['left','left','left','left']" data-paddingtop="[0,0,0,0]" data-paddingright="[0,0,0,0]" data-paddingbottom="[0,0,0,0]" data-paddingleft="[0,0,0,0]" style="z-index: 7; min-width: 700px; max-width: 700px; white-space: normal; font-size: 18px; line-height: 26px; font-weight: 400; color: #DDD; font-family: 'Roboto', sans-serif;">The only way to make sense out of change is to plunge into it, move with it, and join the dance.</div>
-
-							LAYER NR. 5
-							<div class="tp-caption tp-resizeme" id="slide-53-layer-6" data-x="['left','left','left','left']" data-hoffset="['40','40','30','20']" data-y="['bottom','bottom','bottom','bottom']" data-voffset="['28','28','20','20']"  data-fontsize="14"  data-whitespace="normal" data-type="text" data-actions='' data-basealign="slide" data-responsive_offset="on" data-frames='[{"from":"y:20px;opacity:0;","speed":2000,"to":"o:1;","delay":600,"ease":"Power4.easeOut"},{"delay":"wait","speed":300,"to":"opacity:0;","ease":"nothing"}]' data-textAlign="['left','left','left','left']" style="min-width: 306px; max-width: 306px;z-index: 6; text-shadow: none; color: #DDD !important; font-size: 20px; line-height: 20px; font-weight: 600; font-family: 'Roboto', sans-serif;">Gordon Norman - <i class="icon-time" style="position: relative; top: 1px;"></i> Mar 11, 2017</div>
-						</li>
-					</ul>
-					<div class="tp-bannertimer" style="height: 8px; background: rgba(255,255,255,0.25);"></div>
-				</div>END REVOLUTION SLIDER
-			</div>END REVOLUTION SLIDER WRAPPER
-
-		</section> -->
+		
 
 		<!-- Content
 		============================================= -->
@@ -977,6 +828,8 @@
 								============================================= -->
 								<div class="widget clearfix">
 								<!-- <div class="line line-xs line-market"></div> -->
+								<h4 class="mb-2 ls1 uppercase t700">로그인</h4>
+								<div class="line line-xs line-lifestyle"></div> 
 									<div class="card">
 										<div class="card-body">
 											<form class="form-signin">
@@ -1099,7 +952,7 @@
 								<div class="widget clearfix" style="margin-top: 10px;">
 								
 									<h4 class="mb-2 ls1 uppercase t700">실시간채팅</h4>
-									<div class="line line-xs line-home"></div>
+									<div class="line line-xs line-dark"></div>
 									<!-- Post Article -->
 									<div class="card border">
 											
@@ -1196,17 +1049,17 @@
 						
 						
 							<div class="row clearfix">
-						 <div class="line line-xs line-sports"></div> 
+						 
 						<!-- <div class="fancy-title title-dotted-border">
 						
 						</div> -->
 						
 							
 								<div class="col-md-5 mt-4">
+								<h4 class="mb-2 ls1 uppercase t700">커뮤니티</h4>
+								<div class="line line-xs line-sports"></div> 
 								<div class="card border">
-											<div class="card-header p-3 pl-4 bg-transparent">
-												<h4 class="ls1 mb-0 uppercase t700" style="font-size: 110%;">커뮤니티</h4>
-											</div>
+											
 											<div class="card-body">
 										<div class="scroll-wrap" style="height: 400px;">
 													<div class="scroll"> 
@@ -1603,6 +1456,8 @@
 
 								<div class="col-md-7 mt-4">
 									<!-- Post Article -->
+									<h4 class="mb-2 ls1 uppercase t700">미니게임</h4>
+								<div class="line line-xs line-tech"></div> 
 									<article class="ipost">
 									<div class="entry-image mb-3">
 												<iframe width="560" height="315" src="https://www.youtube.com/embed/6ZfuNTqbHE8" allowfullscreen style="border: 0;"></iframe>
@@ -1623,13 +1478,9 @@
 										</div> -->
 									</article>
 									
+											<h4 class="mb-2 ls1 uppercase t700">미니게임존</h4>
+								<div class="line line-xs line-fashion"></div> 
 									<div class="card border" style="margin-top: 28px;">
-											<div class="card-header p-3 pl-4 bg-transparent">
-											
-												<h4 class="ls1 mb-0 uppercase t700" style="font-size: 110%;">미니게임존</h4>
-												
-											
-											</div>
 											<div class="card-body">
 									<article class="spost clearfix">
 									<form action="#">
@@ -2064,10 +1915,10 @@
 							<!-- <a href="#"><img src="resources/demos/news/images/ad/728x90.jpg" width="728" alt="Ad" class="mt-5 mt-lg-2 mb-4 mb-lg-3 aligncenter"></a> -->
 							
 							<div class="col-md-12 mt-6">
+							<h4 class="mb-2 ls1 uppercase t700">지난경기내역</h4>
+								<div class="line line-xs line-market"></div> 
 								<div class="card border">
-											<div class="card-header p-3 pl-4 bg-transparent">
-												<h4 class="ls1 mb-0 uppercase t700" style="font-size: 110%;">지난경기내역</h4>
-											</div>
+											
 											<div class="card-body">
 											<div class="tabs tabs-responsive clearfix">
 
@@ -2114,10 +1965,10 @@
 						 <div class="row clearfix"> 
 							<!-- <div class="line line-xs line-market"></div> -->
 								<div class="col-md-6 mt-4">
+								<h4 class="mb-2 ls1 uppercase t700">경주결과</h4>
+								<div class="line line-xs line-food"></div> 
 							<div class="card border">
-											<div class="card-header p-3 pl-4 bg-transparent">
-												<h4 class="ls1 mb-0 uppercase t700" style="font-size: 110%;">경주결과</h4>
-											</div>
+											
 											<div class="card-body">
 											<div class="scroll-wrap" style="height: 500px;">
 													<div class="scroll"> 
@@ -2506,10 +2357,12 @@
 							
 							 
 								<div class="col-md-6 mt-4">
+								<h4 class="mb-2 ls1 uppercase t700">NEWS</h4>
+								<div class="line line-xs line-travel"></div> 
 							<div class="card border">
-											<div class="card-header p-3 pl-4 bg-transparent">
+											<!-- <div class="card-header p-3 pl-4 bg-transparent">
 												<h4 class="ls1 mb-0 uppercase t700" style="font-size: 110%;">NEWS</h4>
-											</div>
+											</div> -->
 											<div class="card-body">
 											<div class="scroll-wrap" style="height: 500px;">
 													<div class="scroll"> 
