@@ -13,6 +13,7 @@
 	--lifestyle: #13a774;
 	--food: #17a2b8;
 	--market: #ffc107;
+	
 }
 
 /* Colors select as menu name */
@@ -24,6 +25,7 @@
 .color-lifestyle { color:  var(--lifestyle) !important; }
 .color-food { color:  var(--food) !important; }
 .color-market { color:  var(--market) !important; }
+.color-choice{ color : var(--choice) !important; }
 
 .bg-home { background-color:  var(--home) !important; }
 .bg-travel { background-color:  var(--travel) !important; }
@@ -33,6 +35,7 @@
 .bg-lifestyle { background-color:  var(--lifestyle) !important; }
 .bg-food { background-color:  var(--food) !important; }
 .bg-market { background-color:  var(--market) !important; }
+
 
 /* menu Colors */
 body:not(.dark) #header:not(.dark) #header-wrap:not(.dark) #primary-menu > div > ul > li.menu-color-home:hover > a,
@@ -83,6 +86,7 @@ body:not(.dark) #header:not(.dark) #header-wrap:not(.dark) #primary-menu > div >
 #primary-menu ul li.menu-color-market ul li:hover > a { color: var(--market) !important; }
 
 
+
 .navbar-nav.nav-sm .nav-link:hover,
 .navbar-nav.nav-sm .nav-link.active { color: #FFF; }
 
@@ -110,6 +114,7 @@ body:not(.dark) #header:not(.dark) #header-wrap:not(.dark) #primary-menu > div >
 .bg-color-market.nav-link:hover,
 .menu-color-market > a::before,
 .bg-color-market.nav-link.active { background: var(--market) !important; }
+
 
 @media (max-width: 575px) {
 

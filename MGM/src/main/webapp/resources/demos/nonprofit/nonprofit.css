@@ -671,7 +671,7 @@ body:not(.floating-contact-processing) .floating-contact-loader { display: none;
 		opacity: 0;
 		content: '';
 		position: absolute;
-		background-image: url('images/border.svg');
+		/* background-image: url('images/border.svg'); */
 		background-repeat: no-repeat;
 		background-position: center center;
 		top: 50%;

@@ -9,7 +9,7 @@
 <head>
 <meta http-equiv="content-type" content="text/html; charset=utf-8" />
 	<meta name="author" content="SemiColonWeb" />
-	<meta name="viewport" content="width=device-width, initial-scale=1 shrink-to-fit=no">
+	
 
 	<!-- Stylesheets
 	============================================= -->
@@ -86,24 +86,24 @@
 
 					<!-- Primary Navigation
 					============================================= -->
-					<nav id="primary-menu" class="d-lg-flex d-xl-flex justify-content-xl-between justify-content-lg-between fnone with-arrows">
+					<nav id="primary-menu" class="d-lg-flex d-xl-flex justify-content-xl-between justify-content-lg-between fnone with-arrows" >
 
 
 						<ul class="align-self-start">
 							<li><span class="menu-bg col-auto align-self-start d-flex"></span></li>
-							<li class="active"><a href="#"><div>NEWS</div></a></li>
-							<li><a href="#"><div>커뮤니티</div></a>
+							<li class="active"><a href="#"><div  style="font-weight: bold;">NEWS</div></a></li>
+							<li ><a href="#"><div  style=" font-weight: bold;">커뮤니티</div></a>
 								 <ul>									
-									<li><a href="freeboard.do"><div>공지사항</div></a></li>
-									<li><a href="#"><div>자유게시판</div></a></li>
-									<li><a href="#"><div>유머게시판</div></a></li>
-									<li><a href="#"><div>게임게시판</div></a></li>
-									<li><a href="#"><div>문의게시판</div></a></li>
+									<li><a href="freeboard.do"><div  style="font-weight: bold;">공지사항</div></a></li>
+									<li><a href="#"><div  style="font-weight: bold;">자유게시판</div></a></li>
+									<li><a href="#"><div  style="font-weight: bold;">유머게시판</div></a></li>
+									<li><a href="#"><div  style="font-weight: bold;">게임게시판</div></a></li>
+									<li><a href="#"><div  style="font-weight: bold;">문의게시판</div></a></li>
 									
 								</ul> 
 							</li>
-							<li class="#"><a href="#"><div>경마정보</div></a>
-								 <ul>
+							<li class="#"><a href="#"><div  style="font-weight: bold;">경마정보</div></a>
+								<!--  <ul>
 									<li><a href="index-corporate.html"><div>Home - Corporate</div></a>
 										<ul>
 											<li><a href="index-corporate.html"><div>Corporate - Layout 1</div></a></li>
@@ -169,36 +169,36 @@
 									<li><a href="index-parallax.html"><div>Home - Parallax</div></a></li>
 									<li><a href="index-app-showcase.html"><div>Home - App Showcase</div></a></li>
 									<li><a href="index-boxed.html"><div>Home - Boxed Layout</div></a></li>
-								</ul>
+								</ul> -->
 							</li>
-							<li class="#"><a href="#"><div>경마채널</div></a>
+							<li class="#"><a href="#"><div  style="font-weight: bold;">경마채널</div></a>
 								
 							</li>
-							<li class="#"><a href="#"><div>지난경기</div></a>
+							<li class="#"><a href="#"><div  style="font-weight: bold;">지난경기</div></a>
 							
 							</li>
-							<li><a href="#"><div>게임랜드</div></a>
+							<li><a href="#"><div  style="font-weight: bold;">게임랜드</div></a>
 								
 							</li>
-							<li class="#"><a href="#"><div>마이페이지</div></a>
+							<li class="#"><a href="#"><div  style="font-weight: bold;">마이페이지</div></a>
 								<ul>							
-									<li><a href="#"><div>쪽지함</div></a>
+									<li><a href="#"><div  style="font-weight: bold;">쪽지함</div></a>
 										<ul>
-											<li><a href="#"><div>쪽지보내기</div></a></li>
-											<li><a href="#"><div>받은메시지</div></a></li>
-											<li><a href="#"><div>보낸메시지</div></a></li>
+											<li><a href="#"><div  style="font-weight: bold;">쪽지보내기</div></a></li>
+											<li><a href="#"><div  style="font-weight: bold;">받은메시지</div></a></li>
+											<li><a href="#"><div  style="font-weight: bold;">보낸메시지</div></a></li>
 										</ul>
 									</li>
-									<li><a href="#"><div>포인트</div></a>
+									<li><a href="#"><div  style="font-weight: bold;">포인트</div></a>
 										<ul>
-											<li><a href="#"><div>포인트사용내역</div></a></li>									
+											<li><a href="#"><div  style="font-weight: bold;">포인트사용내역</div></a></li>									
 										</ul>
 									</li>		
-									<li><a href="#"><div>정보수정</div></a></li>
-									<li><a href="#"><div>회원탈퇴</div></a></li>
+									<li><a href="#"><div  style="font-weight: bold;">정보수정</div></a></li>
+									<li><a href="#"><div  style="font-weight: bold;">회원탈퇴</div></a></li>
 								</ul>
 							</li>
-							<li class="#"><a href="#"><div>고객센터</div></a>
+							<!-- <li class="#"><a href="#"><div>고객센터</div></a>
 								<ul>
 									<li><a href="#"><div>회사소개</div></a></li>
 									<li><a href="#"><div>이용약관</div></a></li>
@@ -206,568 +206,21 @@
 									<li><a href="#"><div>사이트 소개</div></a></li>
 									<li><a href="#"><div>Q&A</div></a></li>
 								</ul>
-							</li>
+							</li> -->
 						</ul>
 
-						<ul class="not-dark align-self-end">
+					<!-- 	<ul class="not-dark align-self-end">
 							<li><a href="#" class="header-button"><div>Donate</div></a></li>
-						</ul>
+						</ul> -->
 
 					</nav>
-					
-					<!-- <nav id="primary-menu">
-						<ul>
-							<li><a href="#"><div>NEWS</div></a>
-								
-							</li>
-							<li><a href="#"><div>커뮤니티</div></a>
-								 <ul>									
-									<li><a href="freeboard.do"><div>공지사항</div></a></li>
-									<li><a href="#"><div>자유게시판</div></a></li>
-									<li><a href="#"><div>유머게시판</div></a></li>
-									<li><a href="#"><div>게임게시판</div></a></li>
-									<li><a href="#"><div>문의게시판</div></a></li>
-									
-								</ul> 
-							</li>
-							<li class="#"><a href="#"><div>경마정보</div></a>
-								 <ul>
-									<li><a href="index-corporate.html"><div>Home - Corporate</div></a>
-										<ul>
-											<li><a href="index-corporate.html"><div>Corporate - Layout 1</div></a></li>
-											<li><a href="index-corporate-2.html"><div>Corporate - Layout 2</div></a></li>
-											<li><a href="index-corporate-3.html"><div>Corporate - Layout 3</div></a></li>
-											<li><a href="index-corporate-4.html"><div>Corporate - Layout 4</div></a></li>
-										</ul>
-									</li>
-									<li><a href="index-portfolio.html"><div>Home - Portfolio</div></a>
-										<ul>
-											<li><a href="index-portfolio.html"><div>Portfolio - Layout 1</div></a></li>
-											<li><a href="index-portfolio-2.html"><div>Portfolio - Layout 2</div></a></li>
-											<li><a href="index-portfolio-3.html"><div>Portfolio - Masonry</div></a></li>
-											<li><a href="index-portfolio-4.html"><div>Portfolio - AJAX</div></a></li>
-										</ul>
-									</li>
-									<li><a href="index-blog.html"><div>Home - Blog</div></a>
-										<ul>
-											<li><a href="index-blog.html"><div>Blog - Layout 1</div></a></li>
-											<li><a href="index-blog-2.html"><div>Blog - Layout 2</div></a></li>
-											<li><a href="index-blog-3.html"><div>Blog - Layout 3</div></a></li>
-										</ul>
-									</li>
-									<li><a href="index-shop.html"><div>Home - Shop</div></a>
-										<ul>
-											<li><a href="index-shop.html"><div>Shop - Layout 1</div></a></li>
-											<li><a href="index-shop-2.html"><div>Shop - Layout 2</div></a></li>
-										</ul>
-									</li>
-									<li><a href="index-magazine.html"><div>Home - Magazine</div></a>
-										<ul>
-											<li><a href="index-magazine.html"><div>Magazine - Layout 1</div></a></li>
-											<li><a href="index-magazine-2.html"><div>Magazine - Layout 2</div></a></li>
-											<li><a href="index-magazine-3.html"><div>Magazine - Layout 3</div></a></li>
-										</ul>
-									</li>
-									<li><a href="landing.html"><div>Home - Landing Page</div></a>
-										<ul>
-											<li><a href="landing.html"><div>Landing Page - Layout 1</div></a></li>
-											<li><a href="landing-2.html"><div>Landing Page - Layout 2</div></a></li>
-											<li><a href="landing-3.html"><div>Landing Page - Layout 3</div></a></li>
-											<li><a href="landing-4.html"><div>Landing Page - Layout 4</div></a></li>
-											<li><a href="landing-5.html"><div>Landing Page - Layout 5</div></a></li>
-										</ul>
-									</li>
-									<li><a href="index-fullscreen-image.html"><div>Home - Full Screen</div></a>
-										<ul>
-											<li><a href="index-fullscreen-image.html"><div>Full Screen - Image</div></a></li>
-											<li><a href="index-fullscreen-slider.html"><div>Full Screen - Slider</div></a></li>
-											<li><a href="index-fullscreen-video.html"><div>Full Screen - Video</div></a></li>
-										</ul>
-									</li>
-									<li><a href="index-onepage.html"><div>Home - One Page</div></a>
-										<ul>
-											<li><a href="index-onepage.html"><div>One Page - Default</div></a></li>
-											<li><a href="index-onepage-2.html"><div>One Page - Submenu</div></a></li>
-											<li><a href="index-onepage-3.html"><div>One Page - Dots Style</div></a></li>
-										</ul>
-									</li>
-									<li><a href="index-wedding.html"><div>Home - Wedding</div></a></li>
-									<li><a href="index-restaurant.html"><div>Home - Restaurant</div></a></li>
-									<li><a href="index-events.html"><div>Home - Events</div></a></li>
-									<li><a href="index-parallax.html"><div>Home - Parallax</div></a></li>
-									<li><a href="index-app-showcase.html"><div>Home - App Showcase</div></a></li>
-									<li><a href="index-boxed.html"><div>Home - Boxed Layout</div></a></li>
-								</ul>
-							</li>
-							<li class="#"><a href="#"><div>경마채널</div></a>
-								
-							</li>
-							<li class="#"><a href="#"><div>지난경기</div></a>
-							
-							</li>
-							<li><a href="#"><div>게임랜드</div></a>
-								
-							</li>
-							<li class="#"><a href="#"><div>마이페이지</div></a>
-								<ul>							
-									<li><a href="#"><div>쪽지함</div></a>
-										<ul>
-											<li><a href="#"><div>쪽지보내기</div></a></li>
-											<li><a href="#"><div>받은메시지</div></a></li>
-											<li><a href="#"><div>보낸메시지</div></a></li>
-										</ul>
-									</li>
-									<li><a href="#"><div>포인트</div></a>
-										<ul>
-											<li><a href="#"><div>포인트사용내역</div></a></li>									
-										</ul>
-									</li>		
-									<li><a href="#"><div>정보수정</div></a></li>
-									<li><a href="#"><div>회원탈퇴</div></a></li>
-								</ul>
-							</li>
-							<li class="#"><a href="#"><div>고객센터</div></a>
-								<ul>
-									<li><a href="#"><div>회사소개</div></a></li>
-									<li><a href="#"><div>이용약관</div></a></li>
-									<li><a href="#"><div>개인정보 처리방침</div></a></li>
-									<li><a href="#"><div>사이트 소개</div></a></li>
-									<li><a href="#"><div>Q&A</div></a></li>
-								</ul>
-							</li>
-						</ul>
 	
-						
-
-						Top Cart
-						=============================================
-						<div id="top-cart">
-							<a href="#" id="top-cart-trigger"><i class="icon-email3"></i><span>5</span></a>
-							<div class="top-cart-content">
-								<div class="top-cart-title">
-									<h4>Shopping Cart</h4>
-								</div>
-								<div class="top-cart-items">
-									<div class="top-cart-item clearfix">
-										<div class="top-cart-item-image">
-											<a href="#"><img src="resources/images/shop/small/1.jpg" alt="Blue Round-Neck Tshirt" /></a>
-										</div>
-										<div class="top-cart-item-desc">
-											<a href="#">Blue Round-Neck Tshirt</a>
-											<span class="top-cart-item-price">$19.99</span>
-											<span class="top-cart-item-quantity">x 2</span>
-										</div>
-									</div>
-									<div class="top-cart-item clearfix">
-										<div class="top-cart-item-image">
-											<a href="#"><img src="resources/images/shop/small/6.jpg" alt="Light Blue Denim Dress" /></a>
-										</div>
-										<div class="top-cart-item-desc">
-											<a href="#">Light Blue Denim Dress</a>
-											<span class="top-cart-item-price">$24.99</span>
-											<span class="top-cart-item-quantity">x 3</span>
-										</div>
-									</div>
-								</div>
-								<div class="top-cart-action clearfix">
-									<span class="fleft top-checkout-price">$114.95</span>
-									<button class="button button-3d button-small nomargin fright">View Cart</button>
-								</div>
-							</div>
-						</div>#top-cart end
-
-						Top Search
-						=============================================
-						<div id="top-search">
-							<a href="#" id="top-search-trigger"><i class="icon-search3"></i><i class="icon-line-cross"></i></a>
-							<form action="search.html" method="get">
-								<input type="text" name="q" class="form-control" value="" placeholder="Type &amp; Hit Enter..">
-							</form>
-						</div>#top-search end
-
-					</nav> --><!-- #primary-menu end -->
-
 				</div>
 
 			</div>
 
 		</header>
-
-
-
-
-
-		<!-- Header
-		============================================= -->
-		<!-- <header id="header" class="sticky-style-2">
-
-		 	<div class="container clearfix">
-		 	<img class="image-fade" draggable="false" alt="" src="resources/demos/news/images/kyungma.jpg">
-			<div class="row justify-content-between clearfix">
-					<div class="col-md-4 col-sm-3 d-none d-sm-inline-flex align-self-center">
-						<a href="#" class="social-icon inline-block si-small si-rounded si-dark si-mini si-facebook">
-							<i class="icon-facebook"></i>
-							<i class="icon-facebook"></i>
-						</a>
-						<a href="#" class="social-icon inline-block si-small si-rounded si-dark si-mini si-twitter">
-							<i class="icon-twitter"></i>
-							<i class="icon-twitter"></i>
-						</a>
-						<a href="#" class="social-icon inline-block si-small si-rounded si-dark si-mini si-instagram">
-							<i class="icon-instagram"></i>
-							<i class="icon-instagram"></i>
-						</a>
-					</div>
-
-					<div class="col-md-4 col-sm-5 col-8 align-self-center">
-					
-						<div id="logo" class="divcenter nomargin">
-							<a href="#" class="standard-logo"><img class="divcenter" src="resources/demos/news/images/logo.png" alt="Canvas Logo"></a>
-							<a href="#" class="retina-logo"><img class="divcenter" src="resources/demos/news/images/logo@2x.png" alt="Canvas Logo"></a>
-						</div>
-					</div>
-
-					<div class="col-sm-4 col-4 align-self-center nomargin">
-						<ul class="nav justify-content-end">
-							<li class="nav-item">
-								<a class="nav-link uppercase t500" href="#">Sign In</a>
-							</li>
-							<li class="entry-categories mt-3 d-none d-sm-inline-block" style="position: relative; left: auto;">
-								<a class="date-today bg-dark uppercase t500" href="#"></a>
-							</li>
-						</ul>
-					</div>
-
-				</div>
-			</div>  
-
-			<div id="header-wrap">
-				Primary Navigation
-				=============================================
-				<nav id="primary-menu" class="with-arrows style-2 clearfix">
-
-					<div class="container clearfix">
-
-						<div id="primary-menu-trigger"><i class="icon-reorder"></i></div>
-
-						<ul>
-							<li class="active menu-color-home"><a href="#"><div>Home</div></a></li>
-							<li class="menu-color-travel"><a href="#"><div>Travel</div></a></li>
-							<li class="menu-color-tech"><a href="#"><div>Tech</div></a></li>
-							<li class="menu-color-lifestyle mega-menu"><a href="#"><div>lifestyle</div></a>
-								<div class="mega-menu-content style-2 border-top-0 clearfix">
-									<ul class="mega-menu-column col-lg-3">
-										<li>
-											<div class="nav nav-sm tab-hover flex-column nav-pills" id="v-pills-tab" role="tablist" aria-orientation="vertical">
-												<a class="nav-link bg-color-lifestyle active" id="v-pills-home-tab" data-toggle="pill" href="#v-pills-home" role="tab" aria-controls="v-pills-home" aria-selected="true">Health / Fitness</a>
-												<a class="nav-link bg-color-lifestyle" id="v-pills-profile-tab" data-toggle="pill" href="#v-pills-profile" role="tab" aria-controls="v-pills-profile" aria-selected="false">Entertainment</a>
-												<a class="nav-link bg-color-lifestyle" id="v-pills-messages-tab" data-toggle="pill" href="#v-pills-messages" role="tab" aria-controls="v-pills-messages" aria-selected="false">Artist</a>
-												<a class="nav-link bg-color-lifestyle" id="v-pills-settings-tab" data-toggle="pill" href="#v-pills-settings" role="tab" aria-controls="v-pills-settings" aria-selected="false">Recipes</a>
-											</div>
-										</li>
-									</ul>
-									<ul class="mega-menu-column col-lg-9">
-										<li>
-
-											<div class="tab-content" id="v-pills-tabContent">
-												<div class="tab-pane show active" id="v-pills-home" role="tabpanel" aria-labelledby="v-pills-home-tab">
-													<div class="row justify-content-around">
-														<div class="col-4">
-															<article class="ipost">
-																<div class="entry-image mb-3">
-																	<a href="#"><img src="resources/demos/news/images/posts/lifestyle/1.jpg" alt="Image 3"></a>
-																	<div class="entry-categories"><a href="#" class="bg-lifestyle">Gym</a></div>
-																</div>
-																<div class="entry-title">
-																	<h3><a href="#">A Surprising Tool to Help you Lifestyle</a></h3>
-																</div>
-																<ul class="entry-meta clearfix">
-																	<li>John Doe</li>
-																	<li><i class="icon-time"></i>11 Mar 2016</li>
-																</ul>
-															</article>
-														</div>
-														<div class="col-4">
-															<article class="ipost">
-																<div class="entry-image mb-3">
-																	<a href="#"><img src="resources/demos/news/images/posts/lifestyle/meditation.jpg" alt="Image 3"></a>
-																	<div class="entry-categories"><a href="#" class="bg-lifestyle">Meditation</a></div>
-																</div>
-																<div class="entry-title">
-																	<h3><a href="#">Toyotas next minivan will let you.</a></h3>
-																</div>
-																<ul class="entry-meta clearfix">
-																	<li>John Doe</li>
-																	<li><i class="icon-time"></i>11 Mar 2016</li>
-																</ul>
-															</article>
-														</div>
-														<div class="col-4">
-															<article class="ipost">
-																<div class="entry-image mb-3">
-																	<a href="#"><img src="resources/demos/news/images/posts/lifestyle/3.jpg" alt="Image 3"></a>
-																	<div class="entry-categories"><a href="#" class="bg-lifestyle">Yoga</a></div>
-																</div>
-																<div class="entry-title">
-																	<h3><a href="#">Lifestyle Your Way to Success</a></h3>
-																</div>
-																<ul class="entry-meta clearfix">
-																	<li>John Doe</li>
-																	<li><i class="icon-time"></i>11 Mar 2016</li>
-																</ul>
-															</article>
-														</div>
-													</div>
-												</div>
-												<div class="tab-pane" id="v-pills-profile" role="tabpanel" aria-labelledby="v-pills-profile-tab">
-													<div class="row justify-content-around">
-														<div class="col-4">
-															<article class="ipost">
-																<div class="entry-image mb-3">
-																	<a href="#"><img src="resources/demos/news/images/posts/lifestyle/2.jpg" alt="Image 3"></a>
-																	<div class="entry-categories"><a href="#" class="bg-lifestyle">Music</a></div>
-																</div>
-																<div class="entry-title">
-																	<h3><a href="#">A Surprising Tool to Help You Lifestyle</a></h3>
-																</div>
-																<ul class="entry-meta clearfix">
-																	<li>John Doe</li>
-																	<li><i class="icon-time"></i>11 Mar 2016</li>
-																</ul>
-															</article>
-														</div>
-														<div class="col-4">
-															<article class="ipost">
-																<div class="entry-image mb-3">
-																	<a href="#"><img src="resources/demos/news/images/posts/lifestyle/party.jpg" alt="Image 3"></a>
-																	<div class="entry-categories"><a href="#" class="bg-lifestyle">Party</a></div>
-																</div>
-																<div class="entry-title">
-																	<h3><a href="#">Toyotas next minivan will let you.</a></h3>
-																</div>
-																<ul class="entry-meta clearfix">
-																	<li>John Doe</li>
-																	<li><i class="icon-time"></i>11 Mar 2016</li>
-																</ul>
-															</article>
-														</div>
-														<div class="col-4">
-															<article class="ipost">
-																<div class="entry-image mb-3">
-																	<a href="#"><img src="resources/demos/news/images/posts/lifestyle/movies.jpg" alt="Image 3"></a>
-																	<div class="entry-categories"><a href="#" class="bg-lifestyle">Movies</a></div>
-																</div>
-																<div class="entry-title">
-																	<h3><a href="#">Lifestyle Your Way to Success</a></h3>
-																</div>
-																<ul class="entry-meta clearfix">
-																	<li>John Doe</li>
-																	<li><i class="icon-time"></i>11 Mar 2016</li>
-																</ul>
-															</article>
-														</div>
-													</div>
-												</div>
-												<div class="tab-pane" id="v-pills-messages" role="tabpanel" aria-labelledby="v-pills-messages-tab">
-													<div class="row justify-content-around">
-														<div class="col-4">
-															<article class="ipost">
-																<div class="entry-image mb-3">
-																	<a href="#"><img src="resources/demos/news/images/posts/lifestyle/author.jpg" alt="Image 3"></a>
-																	<div class="entry-categories"><a href="#" class="bg-lifestyle">Author</a></div>
-																</div>
-																<div class="entry-title">
-																	<h3><a href="#">A Surprising Tool to Help You Lifestyle</a></h3>
-																</div>
-																<ul class="entry-meta clearfix">
-																	<li>John Doe</li>
-																	<li><i class="icon-time"></i>11 Mar 2016</li>
-																</ul>
-															</article>
-														</div>
-														<div class="col-4">
-															<article class="ipost">
-																<div class="entry-image mb-3">
-																	<a href="#"><img src="resources/demos/news/images/posts/lifestyle/painter.jpg" alt="Image 3"></a>
-																	<div class="entry-categories"><a href="#" class="bg-lifestyle">Painter</a></div>
-																</div>
-																<div class="entry-title">
-																	<h3><a href="#">Toyotas next minivan will let you.</a></h3>
-																</div>
-																<ul class="entry-meta clearfix">
-																	<li>John Doe</li>
-																	<li><i class="icon-time"></i>11 Mar 2016</li>
-																</ul>
-															</article>
-														</div>
-														<div class="col-4">
-															<article class="ipost">
-																<div class="entry-image mb-3">
-																	<a href="#"><img src="resources/demos/news/images/posts/lifestyle/book.jpg" alt="Image 3"></a>
-																	<div class="entry-categories"><a href="#" class="bg-lifestyle">Book</a></div>
-																</div>
-																<div class="entry-title">
-																	<h3><a href="#">Lifestyle Your Way to Success</a></h3>
-																</div>
-																<ul class="entry-meta clearfix">
-																	<li>John Doe</li>
-																	<li><i class="icon-time"></i>11 Mar 2016</li>
-																</ul>
-															</article>
-														</div>
-													</div>
-												</div>
-												<div class="tab-pane" id="v-pills-settings" role="tabpanel" aria-labelledby="v-pills-settings-tab">
-													<div class="row justify-content-around">
-														<div class="col-4">
-															<article class="ipost">
-																<div class="entry-image mb-3">
-																	<a href="#"><img src="resources/demos/news/images/posts/lifestyle/recipes-1.jpg" alt="Image 3"></a>
-																	<div class="entry-categories"><a href="#" class="bg-lifestyle">Recipes</a></div>
-																</div>
-																<div class="entry-title">
-																	<h3><a href="#">A Surprising Tool to Help You Lifestyle</a></h3>
-																</div>
-																<ul class="entry-meta clearfix">
-																	<li>John Doe</li>
-																	<li><i class="icon-time"></i>11 Mar 2016</li>
-																</ul>
-															</article>
-														</div>
-														<div class="col-4">
-															<article class="ipost">
-																<div class="entry-image mb-3">
-																	<a href="#"><img src="resources/demos/news/images/posts/lifestyle/recipes-2.jpg" alt="Image 3"></a>
-																	<div class="entry-categories"><a href="#" class="bg-lifestyle">Recipes</a></div>
-																</div>
-																<div class="entry-title">
-																	<h3><a href="#">Toyotas next minivan will let you.</a></h3>
-																</div>
-																<ul class="entry-meta clearfix">
-																	<li>John Doe</li>
-																	<li><i class="icon-time"></i>11 Mar 2016</li>
-																</ul>
-															</article>
-														</div>
-														<div class="col-4">
-															<article class="ipost">
-																<div class="entry-image mb-3">
-																	<a href="#"><img src="resources/demos/news/images/posts/lifestyle/chef.jpg" alt="Image 3"></a>
-																	<div class="entry-categories"><a href="#" class="bg-lifestyle">Chef</a></div>
-																</div>
-																<div class="entry-title">
-																	<h3><a href="#">Lifestyle Your Way to Success</a></h3>
-																</div>
-																<ul class="entry-meta clearfix">
-																	<li>John Doe</li>
-																	<li><i class="icon-time"></i>11 Mar 2016</li>
-																</ul>
-															</article>
-														</div>
-													</div>
-												</div>
-											</div>
-										</li>
-									</ul>
-								</div>
-							</li>
-							<li class="menu-color-fashion"><a href="#"><div>Fashion</div></a></li>
-							<li class="menu-color-sports"><a href="#"><div>Sports</div></a>
-								<div class="mega-menu-content border-top-0 style-2 clearfix">
-									<ul class="mega-menu-column col-lg-6">
-										<li class="mega-menu-title"><a href="#"><div>Footwear</div></a>
-											<ul>
-												<li><a href="#"><div>Casual Shoes</div></a></li>
-												<li><a href="#"><div>Formal Shoes</div></a></li>
-												<li><a href="#"><div>Sports shoes</div></a></li>
-												<li><a href="#"><div>Flip Flops</div></a></li>
-												<li><a href="#"><div>Slippers</div></a></li>
-												<li><a href="#"><div>Sports Sandals</div></a></li>
-												<li><a href="#"><div>Party Shoes</div></a></li>
-											</ul>
-										</li>
-									</ul>
-									<ul class="mega-menu-column col-lg-6">
-										<li class="mega-menu-title"><a href="#"><div>Clothing</div></a>
-											<ul>
-												<li><a href="#"><div>Casual Shirts</div></a></li>
-												<li><a href="#"><div>T-Shirts</div></a></li>
-												<li><a href="#"><div>Collared Tees</div></a></li>
-												<li><a href="#"><div>Pants / Trousers</div></a></li>
-												<li><a href="#"><div>Ethnic Wear</div></a></li>
-												<li><a href="#"><div>Jeans</div></a></li>
-												<li><a href="#"><div>Sweamwear</div></a></li>
-											</ul>
-										</li>
-									</ul>
-								</div>
-							</li>
-							<li class="menu-color-food"><a href="#"><div>Food</div></a></li>
-							<li class="menu-color-market"><a href="#"><div>Market</div></a></li>
-						</ul>
-
-						Mobile Menu
-						=============================================
-						<ul class="mobile-primary-menu">
-							<li class="active menu-color-home"><a href="#"><div>Home</div></a></li>
-							<li class="menu-color-travel"><a href="#"><div>Travel</div></a></li>
-							<li class="menu-color-lifestyle"><a href="#"><div>Lifestyle</div></a></li>
-							<li class="menu-color-tech"><a href="#"><div>Tech</div></a></li>
-							<li class="menu-color-fashion"><a href="#"><div>Fashion</div></a></li>
-							<li class="menu-color-sports"><a href="#"><div>Sports</div></a>
-								<div class="mega-menu-content style-2 clearfix">
-									<ul class="mega-menu-column col-lg-6">
-										<li class="mega-menu-title"><a href="#"><div>Footwear</div></a>
-											<ul>
-												<li><a href="#"><div>Casual Shoes</div></a></li>
-												<li><a href="#"><div>Formal Shoes</div></a></li>
-												<li><a href="#"><div>Sports shoes</div></a></li>
-												<li><a href="#"><div>Flip Flops</div></a></li>
-												<li><a href="#"><div>Slippers</div></a></li>
-												<li><a href="#"><div>Sports Sandals</div></a></li>
-												<li><a href="#"><div>Party Shoes</div></a></li>
-											</ul>
-										</li>
-									</ul>
-									<ul class="mega-menu-column col-lg-6">
-										<li class="mega-menu-title"><a href="#"><div>Clothing</div></a>
-											<ul>
-												<li><a href="#"><div>Casual Shirts</div></a></li>
-												<li><a href="#"><div>T-Shirts</div></a></li>
-												<li><a href="#"><div>Collared Tees</div></a></li>
-												<li><a href="#"><div>Pants / Trousers</div></a></li>
-												<li><a href="#"><div>Ethnic Wear</div></a></li>
-												<li><a href="#"><div>Jeans</div></a></li>
-												<li><a href="#"><div>Sweamwear</div></a></li>
-											</ul>
-										</li>
-									</ul>
-								</div>
-							</li>
-							<li class="menu-color-food"><a href="#"><div>Food</div></a></li>
-							<li class="menu-color-market"><a href="#"><div>Market</div></a></li>
-						</ul>
-
-						Top Search
-						=============================================
-						<div id="top-search">
-							<a href="#" id="top-search-trigger"><i class="icon-search3"></i><i class="icon-line-cross"></i></a>
-							<form action="search.html" method="get">
-								<input type="text" name="q" class="form-control" value="" placeholder="Type &amp; Hit Enter..">
-							</form>
-						</div>#top-search end
-
-						Bookmark
-						=============================================
-						<div id="top-cart"><a href="#" id="top-cart-trigger"><i class="icon-bookmark-empty t600"></i></a></div>
-
-					</div>
-
-				</nav>#primary-menu end
-
-			</div>
-
-		</header> --><!-- #header end -->
+	
 
 		<!-- Slider
 		============================================= -->
@@ -782,7 +235,7 @@
 								<div class="slider-caption">
 									<h2 class="nott" data-animate="fadeInUp">Help the Homeless & Hungry People.</h2>
 									<p style="font-size: 17px;" data-animate="fadeInUp" data-delay="200">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Autem molestiae, cum ratione at temporibus aperiam repudiandae consectetur, illo nam maiores.</p>
-									<a href="#" data-animate="fadeInUp" data-delay="400" class="button button-rounded button-large button-light text-dark bgcolor shadow nott ls0 ml-0 mt-4">Know More</a>
+									<!-- <a href="#" data-animate="fadeInUp" data-delay="400" class="button button-rounded button-large button-light text-dark bgcolor shadow nott ls0 ml-0 mt-4">Know More</a> -->
 								</div>
 							</div>
 						</div>
@@ -791,7 +244,7 @@
 								<div class="slider-caption">
 									<h2 class="nott" data-animate="fadeInUp">Welcome to Canvas</h2>
 									<p style="font-size: 17px;" data-animate="fadeInUp" data-delay="200">Seamlessly transition standardized channels whereas maintainable web services. Competently unleash exceptional portals through timely infomediaries.</p>
-									<a href="#" data-animate="fadeInUp" data-delay="400" class="button button-rounded button-large button-light text-dark bgcolor shadow nott ls0 ml-0 mt-4">Know More</a>
+									<!-- <a href="#" data-animate="fadeInUp" data-delay="400" class="button button-rounded button-large button-light text-dark bgcolor shadow nott ls0 ml-0 mt-4">Know More</a> -->
 								</div>
 							</div>
 						</div>
@@ -848,7 +301,7 @@
 												<input type="password" id="inputPassword" class="form-control" placeholder="비밀번호" required>
 												<label for="inputPassword">비밀번호</label>
 											</div>
-											<button class="btn btn-lg bgcolor text-white btn-block uppercase ls1" type="submit">Sign in</button>
+											<button class="btn btn-lg text-white btn-block uppercase ls1" style="background-color: #3A486E;" type="submit">Sign in</button>
 											<div class="center"><small class="mt-5 text-muted font-italic"><a href="#" >아이디.비밀번호 찾기</a></small></div>
 											<div class="center"><small class="mt-5 text-muted font-italic"><a href="#" >회원가입</a></small></div>
 										</form>
@@ -952,8 +405,8 @@
 								
 								<div class="widget clearfix" style="margin-top: 10px;">
 								
-									<h4 class="mb-2 ls1 uppercase t700">실시간채팅</h4>
-									<div class="line line-xs line-dark"></div>
+									<h4 class="mb-2 ls1 uppercase t700" style="font-size: 120%;"><span class="text-primary"><i class="icon-chat-3"></i></span> 실시간채팅</h4>
+									<div class="line line-xs line-sports"></div>
 									<!-- Post Article -->
 									<div class="card border">
 											
@@ -1056,10 +509,12 @@
 						
 							
 								<div class="col-md-5 mt-5">
+								<h4 class="mb-2 ls1 uppercase t700" style="font-size: 120%;"><span class="text-dark"><i class="icon-user-friends"></i></span> 커뮤니티</h4>
+									<div class="line line-xs line-sports"></div>
 								<div class="card border">
-											<div class="card-header p-3 pl-4 bg-transparent">
+											<!-- <div class="card-header p-3 pl-4 bg-transparent">
 												<h4 class="ls1 mb-0 uppercase t700" style="font-size: 120%;"><span class="text-warning"><i class="icon-chess-knight"></i></span> 커뮤니티</h4>
-											</div>
+											</div> -->
 											<div class="card-body">
 										<div class="scroll-wrap" style="height: 400px;">
 													<div class="scroll"> 
@@ -1098,84 +553,84 @@
 													 <div class="spost pt-0  notopborder clearfix">
 														<div class="row no-gutters">
 															<div class="col-lg-7 "  >인기글입니다</div>
-															<div class="col-lg-3 nopadding"><span class="text-success"><i class="icon-chess-knight"></i></span> admin</div>
+															<div class="col-lg-3 nopadding"><span class="text-dark"><i class="icon-battery-half"></i></span> admin</div>
 															<div class="col-lg-2 nopadding" >07.03</div>															
 														</div>
 													</div>
 													<div class="spost pt-0  notopborder clearfix">
 														<div class="row no-gutters">
 															<div class="col-lg-7 "  >전체공지사항입니다</div>
-															<div class="col-lg-3 nopadding"><span class="text-success"><i class="icon-chess-king"></i></span> admin</div>
+															<div class="col-lg-3 nopadding"><span class="text-dark"><i class="icon-battery-three-quarters"></i></span> admin</div>
 															<div class="col-lg-2 nopadding">07.03</div>														
 														</div>
 													</div>
 													<div class="spost pt-0  notopborder clearfix">
 														<div class="row no-gutters">
 															<div class="col-lg-7 "  >전체공지사항입니다.이번주부터는 열심히 합시다</div>
-															<div class="col-lg-3 nopadding"><span class="text-success"><i class="icon-chess-bishop"></i></span> admin</div>
+															<div class="col-lg-3 nopadding"><span class="text-dark"><i class="icon-battery-full"></i></span> admin</div>
 															<div class="col-lg-2 nopadding">07.03</div>													
 														</div>
 													</div>
 														<div class="spost pt-0  notopborder clearfix">
 														<div class="row no-gutters">
 															<div class="col-lg-7 "  >인기글입니다</div>
-															<div class="col-lg-3 nopadding"><span class="text-success"><i class="icon-chess-queen"></i></span> admin</div>
+															<div class="col-lg-3 nopadding"><span class="text-dark"><i class="icon-battery-half"></i></span> admin</div>
 															<div class="col-lg-2 nopadding">07.03</div>														
 														</div>
 													</div>
 													<div class="spost pt-0  notopborder clearfix">
 														<div class="row no-gutters">
 															<div class="col-lg-7 "  >인기글입니다.이번주부터는 열심히 합시다</div>
-															<div class="col-lg-3 nopadding"><span class="text-success"><i class="icon-chess-pawn"></i></span> admin</div>
+															<div class="col-lg-3 nopadding"><span class="text-dark"><i class="icon-battery-three-quarters"></i></span> admin</div>
 															<div class="col-lg-2 nopadding">07.03</div>															
 														</div>
 													</div>
 													<div class="spost pt-0  notopborder clearfix">
 														<div class="row no-gutters">
 															<div class="col-lg-7 "  >인기글입니다.이번주부터는 열심히 합시다</div>
-															<div class="col-lg-3 nopadding"><span class="text-success"><i class="icon-chess-rook"></i></span> admin</div>
+															<div class="col-lg-3 nopadding"><span class="text-dark"><i class="icon-battery-half"></i></span> admin</div>
 															<div class="col-lg-2 nopadding">07.03</div>															
 														</div>
 													</div>
 													<div class="spost pt-0  notopborder clearfix">
 														<div class="row no-gutters">
 															<div class="col-lg-7 "  >공지사항입니다</div>
-															<div class="col-lg-3 nopadding"><span class="text-success"><i class="icon-chess-rook"></i></span> admin</div>
+															<div class="col-lg-3 nopadding"><span class="text-dark"><i class="icon-battery-half"></i></span> admin</div>
 															<div class="col-lg-2 nopadding">07.03</div>															
 														</div>
 													</div>
 													<div class="spost pt-0  notopborder clearfix">
 														<div class="row no-gutters">
 															<div class="col-lg-7 "  >인기글입니다</div>
-															<div class="col-lg-3 nopadding"><span class="text-success"><i class="icon-chess-pawn"></i></span> admin</div>
+															<div class="col-lg-3 nopadding"><span class="text-dark"><i class="icon-battery-three-quarters"></i></span> admin</div>
 															<div class="col-lg-2 nopadding">07.03</div>														
 														</div>
 													</div>
 													<div class="spost pt-0  notopborder clearfix">
 														<div class="row no-gutters">
 															<div class="col-lg-7 "  >인기글입니다.이번주부터는 열심히 합시다</div>
-															<div class="col-lg-3 nopadding"><span class="text-success"><i class="icon-chess-rook"></i></span> admin</div>
+															<div class="col-lg-3 nopadding"><span class="text-dark"><i class="icon-battery-empty"></i></span> admin</div>
 															<div class="col-lg-2 nopadding">07.03</div>														
 														</div>
 													</div>
 													<div class="spost pt-0  notopborder clearfix">
 														<div class="row no-gutters">
 															<div class="col-lg-7 "  >인기글입니다.이번주부터는 열심히 합시다</div>
-															<div class="col-lg-3 nopadding"><span class="text-success"><i class="icon-chess-knight"></i></span> admin</div>
+															<div class="col-lg-3 nopadding"><span class="text-dark"><i class="icon-battery-full"></i></span> admin</div>
 															<div class="col-lg-2 nopadding">07.03</div>														
 														</div>
 													</div>
 													<div class="spost pt-0  notopborder clearfix">
 														<div class="row no-gutters">
 															<div class="col-lg-7 "  >인기글입니다</div>
-															<div class="col-lg-3 nopadding"><span class="text-success"><i class="icon-chess-queen"></i></span> admin</div>
+															<div class="col-lg-3 nopadding"><span class="text-dark"><i class="icon-battery-quarter"></i></span> admin</div>
 															<div class="col-lg-2 nopadding">07.03</div>														
 														</div>
 													</div>
 													<div class="spost pt-0  notopborder clearfix">
 														<div class="row no-gutters">
 															<div class="col-lg-7 "  >인기글입니다.이번주부터는 열심히 합시다</div>
-															<div class="col-lg-3 nopadding"><span class="text-success"><i class="icon-chess-king"></i></span> admin</div>
+															<div class="col-lg-3 nopadding"><span class="text-dark"><i class="icon-battery-empty"></i></span> admin</div>
 															<div class="col-lg-2 nopadding">07.03</div>														
 														</div>
 													</div>
@@ -1186,84 +641,84 @@
 													<div class="spost pt-0  notopborder clearfix">
 														<div class="row no-gutters">
 															<div class="col-lg-7 "  >전체공지사항입니다</div>
-															<div class="col-lg-3 nopadding"><span class="text-success"><i class="icon-chess-king"></i></span> admin</div>
+															<div class="col-lg-3 nopadding"><span class="text-dark"><i class="icon-battery-half"></i></span> admin</div>
 															<div class="col-lg-2 nopadding">07.03</div>														
 														</div>
 													</div>
 													 <div class="spost pt-0  notopborder clearfix">
 														<div class="row no-gutters">
 															<div class="col-lg-7 "  >공지사항입니다</div>
-															<div class="col-lg-3 nopadding"><span class="text-success"><i class="icon-chess-knight"></i></span> admin</div>
+															<div class="col-lg-3 nopadding"><span class="text-dark"><i class="icon-battery-full"></i></span> admin</div>
 															<div class="col-lg-2 nopadding" >07.03</div>															
 														</div>
 													</div>
 													<div class="spost pt-0  notopborder clearfix">
 														<div class="row no-gutters">
 															<div class="col-lg-7 "  >전체공지사항입니다.이번주부터는 열심히 합시다</div>
-															<div class="col-lg-3 nopadding"><span class="text-success"><i class="icon-chess-bishop"></i></span> admin</div>
+															<div class="col-lg-3 nopadding"><span class="text-dark"><i class="icon-battery-quarter"></i></span> admin</div>
 															<div class="col-lg-2 nopadding">07.03</div>													
 														</div>
 													</div>
 														<div class="spost pt-0  notopborder clearfix">
 														<div class="row no-gutters">
 															<div class="col-lg-7 "  >전체공지사항입니다</div>
-															<div class="col-lg-3 nopadding"><span class="text-success"><i class="icon-chess-queen"></i></span> admin</div>
+															<div class="col-lg-3 nopadding"><span class="text-dark"><i class="icon-battery-three-quarters"></i></span> admin</div>
 															<div class="col-lg-2 nopadding">07.03</div>														
 														</div>
 													</div>
 													<div class="spost pt-0  notopborder clearfix">
 														<div class="row no-gutters">
 															<div class="col-lg-7 "  >전체공지사항입니다.이번주부터는 열심히 합시다</div>
-															<div class="col-lg-3 nopadding"><span class="text-success"><i class="icon-chess-pawn"></i></span> admin</div>
+															<div class="col-lg-3 nopadding"><span class="text-dark"><i class="icon-battery-empty"></i></span> admin</div>
 															<div class="col-lg-2 nopadding">07.03</div>															
 														</div>
 													</div>
 													<div class="spost pt-0  notopborder clearfix">
 														<div class="row no-gutters">
 															<div class="col-lg-7 "  >전체공지사항입니다.이번주부터는 열심히 합시다</div>
-															<div class="col-lg-3 nopadding"><span class="text-success"><i class="icon-chess-rook"></i></span> admin</div>
+															<div class="col-lg-3 nopadding"><span class="text-dark"><i class="icon-battery-quarter"></i></span> admin</div>
 															<div class="col-lg-2 nopadding">07.03</div>															
 														</div>
 													</div>
 													<div class="spost pt-0  notopborder clearfix">
 														<div class="row no-gutters">
 															<div class="col-lg-7 "  >공지사항입니다</div>
-															<div class="col-lg-3 nopadding"><span class="text-success"><i class="icon-chess-rook"></i></span> admin</div>
+															<div class="col-lg-3 nopadding"><span class="text-dark"><i class="icon-battery-full"></i></span> admin</div>
 															<div class="col-lg-2 nopadding">07.03</div>															
 														</div>
 													</div>
 													<div class="spost pt-0  notopborder clearfix">
 														<div class="row no-gutters">
 															<div class="col-lg-7 "  >공지사항입니다</div>
-															<div class="col-lg-3 nopadding"><span class="text-success"><i class="icon-chess-pawn"></i></span> admin</div>
+															<div class="col-lg-3 nopadding"><span class="text-dark"><i class="icon-battery-half"></i></span> admin</div>
 															<div class="col-lg-2 nopadding">07.03</div>														
 														</div>
 													</div>
 													<div class="spost pt-0  notopborder clearfix">
 														<div class="row no-gutters">
 															<div class="col-lg-7 "  >전체공지사항입니다.이번주부터는 열심히 합시다</div>
-															<div class="col-lg-3 nopadding"><span class="text-success"><i class="icon-chess-rook"></i></span> admin</div>
+															<div class="col-lg-3 nopadding"><span class="text-dark"><i class="icon-battery-quarter"></i></span> admin</div>
 															<div class="col-lg-2 nopadding">07.03</div>														
 														</div>
 													</div>
 													<div class="spost pt-0  notopborder clearfix">
 														<div class="row no-gutters">
 															<div class="col-lg-7 "  >전체공지사항입니다.이번주부터는 열심히 합시다</div>
-															<div class="col-lg-3 nopadding"><span class="text-success"><i class="icon-chess-knight"></i></span> admin</div>
+															<div class="col-lg-3 nopadding"><span class="text-dark"><i class="icon-battery-three-quarters"></i></span> admin</div>
 															<div class="col-lg-2 nopadding">07.03</div>														
 														</div>
 													</div>
 													<div class="spost pt-0  notopborder clearfix">
 														<div class="row no-gutters">
 															<div class="col-lg-7 "  >공지사항입니다</div>
-															<div class="col-lg-3 nopadding"><span class="text-success"><i class="icon-chess-queen"></i></span> admin</div>
+															<div class="col-lg-3 nopadding"><span class="text-dark"><i class="icon-battery-empty"></i></span> admin</div>
 															<div class="col-lg-2 nopadding">07.03</div>														
 														</div>
 													</div>
 													<div class="spost pt-0  notopborder clearfix">
 														<div class="row no-gutters">
 															<div class="col-lg-7 "  >전체공지사항입니다.이번주부터는 열심히 합시다</div>
-															<div class="col-lg-3 nopadding"><span class="text-success"><i class="icon-chess-king"></i></span> admin</div>
+															<div class="col-lg-3 nopadding"><span class="text-dark"><i class="icon-battery-half"></i></span> admin</div>
 															<div class="col-lg-2 nopadding">07.03</div>														
 														</div>
 													</div>
@@ -1274,84 +729,84 @@
 													 <div class="spost pt-0  notopborder clearfix">
 														<div class="row no-gutters">
 															<div class="col-lg-7 "  >자유게시판글입니다</div>
-															<div class="col-lg-3 nopadding"><span class="text-success"><i class="icon-chess-knight"></i></span> admin</div>
+															<div class="col-lg-3 nopadding"><span class="text-dark"><i class="icon-battery-quarter"></i></span> admin</div>
 															<div class="col-lg-2 nopadding" >07.03</div>															
 														</div>
 													</div>
 													<div class="spost pt-0  notopborder clearfix">
 														<div class="row no-gutters">
 															<div class="col-lg-7 "  >자유게시판글입니다</div>
-															<div class="col-lg-3 nopadding"><span class="text-success"><i class="icon-chess-king"></i></span> admin</div>
+															<div class="col-lg-3 nopadding"><span class="text-dark"><i class="icon-battery-half"></i></span> admin</div>
 															<div class="col-lg-2 nopadding">07.03</div>														
 														</div>
 													</div>
 														<div class="spost pt-0  notopborder clearfix">
 														<div class="row no-gutters">
 															<div class="col-lg-7 "  >자유게시판글입니다</div>
-															<div class="col-lg-3 nopadding"><span class="text-success"><i class="icon-chess-queen"></i></span> admin</div>
+															<div class="col-lg-3 nopadding"><span class="text-dark"><i class="icon-battery-full"></i></span> admin</div>
 															<div class="col-lg-2 nopadding">07.03</div>														
 														</div>
 													</div>
 													<div class="spost pt-0  notopborder clearfix">
 														<div class="row no-gutters">
 															<div class="col-lg-7 "  >자유게시판글입니다.이번주부터는 열심히 합시다</div>
-															<div class="col-lg-3 nopadding"><span class="text-success"><i class="icon-chess-pawn"></i></span> admin</div>
+															<div class="col-lg-3 nopadding"><span class="text-dark"><i class="icon-battery-three-quarters"></i></span> admin</div>
 															<div class="col-lg-2 nopadding">07.03</div>															
 														</div>
 													</div>
 													<div class="spost pt-0  notopborder clearfix">
 														<div class="row no-gutters">
 															<div class="col-lg-7 "  >자유게시판글입니다.이번주부터는 열심히 합시다</div>
-															<div class="col-lg-3 nopadding"><span class="text-success"><i class="icon-chess-bishop"></i></span> admin</div>
+															<div class="col-lg-3 nopadding"><span class="text-dark"><i class="icon-battery-empty"></i></span> admin</div>
 															<div class="col-lg-2 nopadding">07.03</div>													
 														</div>
 													</div>
 													<div class="spost pt-0  notopborder clearfix">
 														<div class="row no-gutters">
 															<div class="col-lg-7 "  >자유게시판글입니다</div>
-															<div class="col-lg-3 nopadding"><span class="text-success"><i class="icon-chess-rook"></i></span> admin</div>
+															<div class="col-lg-3 nopadding"><span class="text-dark"><i class="icon-battery-quarter"></i></span> admin</div>
 															<div class="col-lg-2 nopadding">07.03</div>															
 														</div>
 													</div>
 													<div class="spost pt-0  notopborder clearfix">
 														<div class="row no-gutters">
 															<div class="col-lg-7 "  >자유게시판글입니다.이번주부터는 열심히 합시다</div>
-															<div class="col-lg-3 nopadding"><span class="text-success"><i class="icon-chess-rook"></i></span> admin</div>
+															<div class="col-lg-3 nopadding"><span class="text-dark"><i class="icon-battery-three-quarters"></i></span> admin</div>
 															<div class="col-lg-2 nopadding">07.03</div>															
 														</div>
 													</div>
 													<div class="spost pt-0  notopborder clearfix">
 														<div class="row no-gutters">
 															<div class="col-lg-7 "  >자유게시판글입니다.이번주부터는 열심히 합시다</div>
-															<div class="col-lg-3 nopadding"><span class="text-success"><i class="icon-chess-rook"></i></span> admin</div>
+															<div class="col-lg-3 nopadding"><span class="text-dark"><i class="icon-battery-full"></i></span> admin</div>
 															<div class="col-lg-2 nopadding">07.03</div>														
 														</div>
 													</div>
 													<div class="spost pt-0  notopborder clearfix">
 														<div class="row no-gutters">
 															<div class="col-lg-7 "  >자유게시판글입니다</div>
-															<div class="col-lg-3 nopadding"><span class="text-success"><i class="icon-chess-pawn"></i></span> admin</div>
+															<div class="col-lg-3 nopadding"><span class="text-dark"><i class="icon-battery-quarter"></i></span> admin</div>
 															<div class="col-lg-2 nopadding">07.03</div>														
 														</div>
 													</div>
 													<div class="spost pt-0  notopborder clearfix">
 														<div class="row no-gutters">
 															<div class="col-lg-7 "  >자유게시판글입니다</div>
-															<div class="col-lg-3 nopadding"><span class="text-success"><i class="icon-chess-queen"></i></span> admin</div>
+															<div class="col-lg-3 nopadding"><span class="text-dark"><i class="icon-battery-empty"></i></span> admin</div>
 															<div class="col-lg-2 nopadding">07.03</div>														
 														</div>
 													</div>
 													<div class="spost pt-0  notopborder clearfix">
 														<div class="row no-gutters">
 															<div class="col-lg-7 "  >자유게시판글입니다.이번주부터는 열심히 합시다</div>
-															<div class="col-lg-3 nopadding"><span class="text-success"><i class="icon-chess-king"></i></span> admin</div>
+															<div class="col-lg-3 nopadding"><span class="text-dark"><i class="icon-battery-half"></i></span> admin</div>
 															<div class="col-lg-2 nopadding">07.03</div>														
 														</div>
 													</div>
 													<div class="spost pt-0  notopborder clearfix">
 														<div class="row no-gutters">
 															<div class="col-lg-7 "  >자유게시판글입니다.이번주부터는 열심히 합시다</div>
-															<div class="col-lg-3 nopadding"><span class="text-success"><i class="icon-chess-knight"></i></span> admin</div>
+															<div class="col-lg-3 nopadding"><span class="text-dark"><i class="icon-battery-full"></i></span> admin</div>
 															<div class="col-lg-2 nopadding">07.03</div>														
 														</div>
 													</div>
@@ -1362,84 +817,84 @@
 													 <div class="spost pt-0  notopborder clearfix">
 														<div class="row no-gutters">
 															<div class="col-lg-7 "  >김일남김일남김일남rlasasdfasdfasdfas</div>
-															<div class="col-lg-3 nopadding"><span class="text-success"><i class="icon-chess-knight"></i></span> admin</div>
+															<div class="col-lg-3 nopadding"><span class="text-dark"><i class="icon-battery-half"></i></span> admin</div>
 															<div class="col-lg-2 nopadding" >07.03</div>															
 														</div>
 													</div>
 													<div class="spost pt-0  notopborder clearfix">
 														<div class="row no-gutters">
 															<div class="col-lg-7 "  >김일남김일남김일남</div>
-															<div class="col-lg-3 nopadding"><span class="text-success"><i class="icon-chess-king"></i></span> admin</div>
+															<div class="col-lg-3 nopadding"><span class="text-dark"><i class="icon-battery-quarter"></i></span> admin</div>
 															<div class="col-lg-2 nopadding">07.03</div>														
 														</div>
 													</div>
 														<div class="spost pt-0  notopborder clearfix">
 														<div class="row no-gutters">
 															<div class="col-lg-7 "  >김일남김일남김일남</div>
-															<div class="col-lg-3 nopadding"><span class="text-success"><i class="icon-chess-queen"></i></span> admin</div>
+															<div class="col-lg-3 nopadding"><span class="text-dark"><i class="icon-battery-empty"></i></span> admin</div>
 															<div class="col-lg-2 nopadding">07.03</div>														
 														</div>
 													</div>
 													<div class="spost pt-0  notopborder clearfix">
 														<div class="row no-gutters">
 															<div class="col-lg-7 "  >김일남김일남김일남werqrqwerwqrsef</div>
-															<div class="col-lg-3 nopadding"><span class="text-success"><i class="icon-chess-bishop"></i></span> admin</div>
+															<div class="col-lg-3 nopadding"><span class="text-dark"><i class="icon-battery-full"></i></span> admin</div>
 															<div class="col-lg-2 nopadding">07.03</div>													
 														</div>
 													</div>
 													<div class="spost pt-0  notopborder clearfix">
 														<div class="row no-gutters">
 															<div class="col-lg-7 "  >김일남김일남김일남</div>
-															<div class="col-lg-3 nopadding"><span class="text-success"><i class="icon-chess-pawn"></i></span> admin</div>
+															<div class="col-lg-3 nopadding"><span class="text-dark"><i class="icon-battery-three-quarters"></i></span> admin</div>
 															<div class="col-lg-2 nopadding">07.03</div>															
 														</div>
 													</div>
 													<div class="spost pt-0  notopborder clearfix">
 														<div class="row no-gutters">
 															<div class="col-lg-7 "  >김일남김일남김일남asdfsafsadfasdf</div>
-															<div class="col-lg-3 nopadding"><span class="text-success"><i class="icon-chess-rook"></i></span> admin</div>
+															<div class="col-lg-3 nopadding"><span class="text-dark"><i class="icon-battery-half"></i></span> admin</div>
 															<div class="col-lg-2 nopadding">07.03</div>															
 														</div>
 													</div>
 													<div class="spost pt-0  notopborder clearfix">
 														<div class="row no-gutters">
 															<div class="col-lg-7 "  >김일남김일남김일남aheresadfasdf</div>
-															<div class="col-lg-3 nopadding"><span class="text-success"><i class="icon-chess-rook"></i></span> admin</div>
+															<div class="col-lg-3 nopadding"><span class="text-dark"><i class="icon-battery-empty"></i></span> admin</div>
 															<div class="col-lg-2 nopadding">07.03</div>															
 														</div>
 													</div>
 													<div class="spost pt-0  notopborder clearfix">
 														<div class="row no-gutters">
 															<div class="col-lg-7 "  >김일남김일남김일남asdfsfadf</div>
-															<div class="col-lg-3 nopadding"><span class="text-success"><i class="icon-chess-pawn"></i></span> admin</div>
+															<div class="col-lg-3 nopadding"><span class="text-dark"><i class="icon-battery-quarter"></i></span> admin</div>
 															<div class="col-lg-2 nopadding">07.03</div>														
 														</div>
 													</div>
 													<div class="spost pt-0  notopborder clearfix">
 														<div class="row no-gutters">
 															<div class="col-lg-7 "  >김일남김일남김일남aasdfasafsadfasdf</div>
-															<div class="col-lg-3 nopadding"><span class="text-success"><i class="icon-chess-rook"></i></span> admin</div>
+															<div class="col-lg-3 nopadding"><span class="text-dark"><i class="icon-battery-half"></i></span> admin</div>
 															<div class="col-lg-2 nopadding">07.03</div>														
 														</div>
 													</div>
 													<div class="spost pt-0  notopborder clearfix">
 														<div class="row no-gutters">
 															<div class="col-lg-7 "  >김일남김일남김일남asdfsadfasdf</div>
-															<div class="col-lg-3 nopadding"><span class="text-success"><i class="icon-chess-queen"></i></span> admin</div>
+															<div class="col-lg-3 nopadding"><span class="text-dark"><i class="icon-battery-three-quarters"></i></span> admin</div>
 															<div class="col-lg-2 nopadding">07.03</div>														
 														</div>
 													</div>
 													<div class="spost pt-0  notopborder clearfix">
 														<div class="row no-gutters">
 															<div class="col-lg-7 "  >김일남김일남김일남asdfsafsadfasdf</div>
-															<div class="col-lg-3 nopadding"><span class="text-success"><i class="icon-chess-knight"></i></span> admin</div>
+															<div class="col-lg-3 nopadding"><span class="text-dark"><i class="icon-battery-empty"></i></span> admin</div>
 															<div class="col-lg-2 nopadding">07.03</div>														
 														</div>
 													</div>
 													<div class="spost pt-0  notopborder clearfix">
 														<div class="row no-gutters">
 															<div class="col-lg-7 "  >김일남김일남김일남asdfsafsadfasdf</div>
-															<div class="col-lg-3 nopadding"><span class="text-success"><i class="icon-chess-king"></i></span> admin</div>
+															<div class="col-lg-3 nopadding"><span class="text-dark"><i class="icon-battery-quarter"></i></span> admin</div>
 															<div class="col-lg-2 nopadding">07.03</div>														
 														</div>
 													</div>
@@ -1450,16 +905,16 @@
 										</div>
 										</div>
 										</div>
-										<a href="#" class="card-footer ls1 uppercase t700 text-white btn-block bg-sports border-top-0 text-center">커뮤니티바로가기</a>	<!--카드세션-->
+										<a href="#" class="card-footer ls1 uppercase t700 text-white btn-block border-top-0 text-center" style="background-color: #3A486E;">커뮤니티바로가기</a>	<!--카드세션-->
 									</div>
 								</div>
 
 								<div class="col-md-7 mt-5">
+								<h4 class="mb-2 ls1 uppercase t700" style="font-size:120%;"><span class="text-success "><i class="icon-gamepad"></i></span> 미니게임존</h4>
+									<div class="line line-xs line-sports"></div>
 								<form action="#">
 								<div class="card border">
-											<div class="card-header p-3 pl-4 bg-transparent">										
-												<h4 class="ls1 mb-0 uppercase t700" style="font-size: 120%;"><span style="color: black;"><i class="icon-gamepad"></i></span> 미니게임존</h4>
-											</div>
+											
 											<div class="card-body nopadding">
 									<!-- Post Article -->
 									<article class="ipost">
@@ -1485,7 +940,7 @@
 									
 									
 									<article class="spost clearfix " >
-										<ul class="entry-meta clearfix">
+										<ul class="entry-meta clearfix" >
 										<li><a href="#" class="button button-border button-rounded button-red">PICK</a></li>
 										<li><a href="#" class="button button-border button-rounded button-yellow">PICK</a></li>
 										<li><a href="#" class="button button-border button-rounded button-green">PICK</a></li>
@@ -1505,10 +960,10 @@
 							<!-- <a href="#"><img src="resources/demos/news/images/ad/728x90.jpg" width="728" alt="Ad" class="mt-5 mt-lg-2 mb-4 mb-lg-3 aligncenter"></a> -->
 							
 							<div class="col-md-12 mt-4">
+								<h4 class="mb-2 ls1 uppercase t700" style="font-size: 120%;"><span class="text-secondary"><i class="icon-bars1"></i></span> 지난경기내역</h4>
+									<div class="line line-xs line-sports"></div>
 								<div class="card border" >
-											<div class="card-header p-3 pl-4 bg-transparent">
-												<h4 class="ls1 mb-0 uppercase t700" style="font-size: 110%;">지난경기내역</h4>
-											</div>
+											
 											<div class="card-body">
 											<div class="tabs tabs-responsive clearfix">
 
@@ -1555,10 +1010,10 @@
 						 <div class="row clearfix"> 
 							<!-- <div class="line line-xs line-market"></div> -->
 								<div class="col-md-6 mt-4">
+								<h4 class="mb-2 ls1 uppercase t700" style="font-size: 120%;"><span class="text-warning"><i class="icon-note"></i></span> 경주결과</h4>
+									<div class="line line-xs line-sports"></div>
 							<div class="card border">
-											<div class="card-header p-3 pl-4 bg-transparent">
-												<h4 class="ls1 mb-0 uppercase t700" style="font-size: 110%;">경주결과</h4>
-											</div>
+											
 											<div class="card-body">
 											<div class="scroll-wrap" style="height: 500px;">
 													<div class="scroll"> 
@@ -1940,17 +1395,17 @@
 										</div>
 										</div>
 										</div>
-										<a href="#" class="card-footer ls1 uppercase t700 text-white btn-block bg-success border-top-0 text-center">더보기</a>	<!--카드세션-->
+										<a href="#" class="card-footer ls1 uppercase t700 text-white btn-block border-top-0 text-center" style="background-color: #3A486E;">더보기</a>	<!--카드세션-->
 										</div>
 										</div>
 										
 							
 							 
 								<div class="col-md-6 mt-4">
+								<h4 class="mb-2 ls1 uppercase t700" style="font-size: 120%;"><span class="text-info"><i class="icon-chess-knight"></i></span> NEWS</h4>
+									<div class="line line-xs line-sports"></div>
 							<div class="card border">
-											<div class="card-header p-3 pl-4 bg-transparent">
-												<h4 class="ls1 mb-0 uppercase t700" style="font-size: 110%;">NEWS</h4>
-											</div>
+											
 											<div class="card-body">
 											<div class="scroll-wrap" style="height: 500px;">
 													<div class="scroll"> 
@@ -2238,7 +1693,7 @@
 										</div>
 										</div>
 										</div>
-										<a href="#" class="card-footer ls1 uppercase t700 text-white btn-block bg-travel border-top-0 text-center">더보기</a>	<!--카드세션-->
+										<a href="#" class="card-footer ls1 uppercase t700 text-white btn-block border-top-0 text-center" style="background-color: #3A486E;">더보기</a>	<!--카드세션-->
 										</div>
 										</div>
 										
@@ -2250,7 +1705,7 @@
 						<div class="line"></div>
 						
 					
-						<div class="line line-xs line-home"></div>
+						<div class="line line-xs line-sports"></div>
 								<div class="ipost mb-4 mb-lg-4 row clearfix">
 									<div class="col-md-6">
 										<div class="entry-image mb-0">
@@ -2282,7 +1737,7 @@
 										</ul>
 										<div class="entry-content mt-0">
 											<p>재미있는 추억의 게임을 즐기세요.남녀노소 누구나 좋아하는 추억의 오락실 게임 </p>
-											<a href="resources/demos/news/demo-news-2.html" class="mt-4 button button-dark bg-dark button-rounded ls1 uppercase load-next-portfolio">더 보기</a>
+											<a href="resources/demos/news/demo-news-2.html" class="mt-4 button button-dark button-rounded ls1 uppercase load-next-portfolio" style="background-color: #3A486E;">더 보기</a>
 										</div>
 									</div>
 								</div>
@@ -2290,7 +1745,7 @@
 						
 						
 						
-							 <div class="line line-xs line-travel"></div> 
+							 <div class="line line-xs line-sports"></div> 
 							 <div class="ipost mb-4 mb-lg-4 row clearfix">
 								<div class="col-md-6">					
 							<div class="entry-title mt-lg-0 mt-3">
@@ -2303,7 +1758,7 @@
 							</ul>
 							<div class="entry-content">
 								<p>유투브 채널로 즐기세요.다양한 컨텐츠가 있는 유투브 방송 보세요 </p>
-								<a href="resources/demos/news/demo-news-2.html" class="mt-4 button button-dark bg-dark button-rounded ls1 uppercase load-next-portfolio">더 보기</a>
+								<a href="resources/demos/news/demo-news-2.html" class="mt-4 button button-dark button-rounded ls1 uppercase load-next-portfolio" style="background-color: #3A486E;">더 보기</a>
 							</div>
 							</div>
 							<div class="col-md-6">
