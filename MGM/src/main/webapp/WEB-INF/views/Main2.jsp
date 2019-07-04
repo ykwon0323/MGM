@@ -17,14 +17,15 @@
 	<link rel="stylesheet" href="resources/css/bootstrap.css" type="text/css" />
 	<link rel="stylesheet" href="resources/style.css" type="text/css" />
 	<link rel="stylesheet" href="resources/css/dark.css" type="text/css" />
-
+	<link rel="stylesheet" href="resources/css/swiper.css" type="text/css" />
+	
 	<link rel="stylesheet" href="resources/css/font-icons.css" type="text/css" />
 	<link rel="stylesheet" href="resources/one-page/css/et-line.css" type="text/css" />
 	<link rel="stylesheet" href="resources/css/animate.css" type="text/css" />
 	<link rel="stylesheet" href="resources/css/magnific-popup.css" type="text/css" />
 
 	<link rel="stylesheet" href="resources/css/responsive.css" type="text/css" />
-	<meta name="viewport" content="width=device-width, initial-scale=1" />
+	<meta name="viewport" content="width=device-width, initial-scale=1"/>
 
 	<!-- Theme Color Stylesheet -->
 	<link rel="stylesheet" href="resources/demos/news/css/colors.css" type="text/css" />
@@ -34,11 +35,11 @@
 	<link rel="stylesheet" href="resources/demos/news/news.css" type="text/css" />
 	<!-- / -->
 
-	<!-- SLIDER REVOLUTION 5.x CSS SETTINGS -->
-	<link rel="stylesheet" type="text/css" href="resources/include/rs-plugin/css/settings.css" media="screen" />
-	<link rel="stylesheet" type="text/css" href="resources/include/rs-plugin/css/layers.css">
-	<link rel="stylesheet" type="text/css" href="resources/include/rs-plugin/css/navigation.css">
-
+	
+	<!-- NonProfit Demo Specific Stylesheet -->
+	<link rel="stylesheet" href="resources/css/colors.php?color=C6C09C" type="text/css" /> <!-- Theme Color -->
+	<link rel="stylesheet" href="resources/demos/nonprofit/css/fonts.css" type="text/css" />
+	<link rel="stylesheet" href="resources/demos/nonprofit/nonprofit.css" type="text/css" />
 	<!-- Document Title
 	============================================= -->
 	<title>News Demo | Canvas</title>
@@ -60,7 +61,8 @@
 	<div id="wrapper" class="clearfix">
 
 
-	<header id="header" class="full-header dark">
+	<!-- <header id="header" class="full-header dark"> -->
+	<header id="header" class="clearfix static-sticky">
 
 			<div id="header-wrap">
 
@@ -70,14 +72,147 @@
 
 					<!-- Logo
 					============================================= -->
-					<div id="logo">
+					<!-- <div id="logo">
 						<a href="index.html" class="standard-logo" data-dark-logo="resources/images/logo-dark.png"><img src="resources/images/logo.png" alt="Canvas Logo"></a>
 						<a href="index.html" class="retina-logo" data-dark-logo="resources/images/logo-dark@2x.png"><img src="resources/images/logo@2x.png" alt="Canvas Logo"></a>
-					</div><!-- #logo end -->
+					</div> --><!-- #logo end -->
+					<div id="logo">
+						<a href="index.html" class="standard-logo" data-dark-logo="resources/demos/business/images/logo-dark.png"><img src="resources/demos/business/images/logo.png" alt="Canvas Logo"></a>
+						<a href="index.html" class="retina-logo" data-dark-logo="resources/demos/business/images/logo-dark@2x.png"><img src="resources/demos/business/images/logo@2x.png" alt="Canvas Logo"></a>
+					</div>
 
 					<!-- Primary Navigation
 					============================================= -->
-					<nav id="primary-menu">
+					<nav id="primary-menu" class="d-lg-flex d-xl-flex justify-content-xl-between justify-content-lg-between fnone with-arrows">
+
+
+						<ul class="align-self-start">
+							<li><span class="menu-bg col-auto align-self-start d-flex"></span></li>
+							<li class="active"><a href="#"><div>NEWS</div></a></li>
+							<li><a href="#"><div>커뮤니티</div></a>
+								 <ul>									
+									<li><a href="freeboard.do"><div>공지사항</div></a></li>
+									<li><a href="#"><div>자유게시판</div></a></li>
+									<li><a href="#"><div>유머게시판</div></a></li>
+									<li><a href="#"><div>게임게시판</div></a></li>
+									<li><a href="#"><div>문의게시판</div></a></li>
+									
+								</ul> 
+							</li>
+							<li class="#"><a href="#"><div>경마정보</div></a>
+								 <ul>
+									<li><a href="index-corporate.html"><div>Home - Corporate</div></a>
+										<ul>
+											<li><a href="index-corporate.html"><div>Corporate - Layout 1</div></a></li>
+											<li><a href="index-corporate-2.html"><div>Corporate - Layout 2</div></a></li>
+											<li><a href="index-corporate-3.html"><div>Corporate - Layout 3</div></a></li>
+											<li><a href="index-corporate-4.html"><div>Corporate - Layout 4</div></a></li>
+										</ul>
+									</li>
+									<li><a href="index-portfolio.html"><div>Home - Portfolio</div></a>
+										<ul>
+											<li><a href="index-portfolio.html"><div>Portfolio - Layout 1</div></a></li>
+											<li><a href="index-portfolio-2.html"><div>Portfolio - Layout 2</div></a></li>
+											<li><a href="index-portfolio-3.html"><div>Portfolio - Masonry</div></a></li>
+											<li><a href="index-portfolio-4.html"><div>Portfolio - AJAX</div></a></li>
+										</ul>
+									</li>
+									<li><a href="index-blog.html"><div>Home - Blog</div></a>
+										<ul>
+											<li><a href="index-blog.html"><div>Blog - Layout 1</div></a></li>
+											<li><a href="index-blog-2.html"><div>Blog - Layout 2</div></a></li>
+											<li><a href="index-blog-3.html"><div>Blog - Layout 3</div></a></li>
+										</ul>
+									</li>
+									<li><a href="index-shop.html"><div>Home - Shop</div></a>
+										<ul>
+											<li><a href="index-shop.html"><div>Shop - Layout 1</div></a></li>
+											<li><a href="index-shop-2.html"><div>Shop - Layout 2</div></a></li>
+										</ul>
+									</li>
+									<li><a href="index-magazine.html"><div>Home - Magazine</div></a>
+										<ul>
+											<li><a href="index-magazine.html"><div>Magazine - Layout 1</div></a></li>
+											<li><a href="index-magazine-2.html"><div>Magazine - Layout 2</div></a></li>
+											<li><a href="index-magazine-3.html"><div>Magazine - Layout 3</div></a></li>
+										</ul>
+									</li>
+									<li><a href="landing.html"><div>Home - Landing Page</div></a>
+										<ul>
+											<li><a href="landing.html"><div>Landing Page - Layout 1</div></a></li>
+											<li><a href="landing-2.html"><div>Landing Page - Layout 2</div></a></li>
+											<li><a href="landing-3.html"><div>Landing Page - Layout 3</div></a></li>
+											<li><a href="landing-4.html"><div>Landing Page - Layout 4</div></a></li>
+											<li><a href="landing-5.html"><div>Landing Page - Layout 5</div></a></li>
+										</ul>
+									</li>
+									<li><a href="index-fullscreen-image.html"><div>Home - Full Screen</div></a>
+										<ul>
+											<li><a href="index-fullscreen-image.html"><div>Full Screen - Image</div></a></li>
+											<li><a href="index-fullscreen-slider.html"><div>Full Screen - Slider</div></a></li>
+											<li><a href="index-fullscreen-video.html"><div>Full Screen - Video</div></a></li>
+										</ul>
+									</li>
+									<li><a href="index-onepage.html"><div>Home - One Page</div></a>
+										<ul>
+											<li><a href="index-onepage.html"><div>One Page - Default</div></a></li>
+											<li><a href="index-onepage-2.html"><div>One Page - Submenu</div></a></li>
+											<li><a href="index-onepage-3.html"><div>One Page - Dots Style</div></a></li>
+										</ul>
+									</li>
+									<li><a href="index-wedding.html"><div>Home - Wedding</div></a></li>
+									<li><a href="index-restaurant.html"><div>Home - Restaurant</div></a></li>
+									<li><a href="index-events.html"><div>Home - Events</div></a></li>
+									<li><a href="index-parallax.html"><div>Home - Parallax</div></a></li>
+									<li><a href="index-app-showcase.html"><div>Home - App Showcase</div></a></li>
+									<li><a href="index-boxed.html"><div>Home - Boxed Layout</div></a></li>
+								</ul>
+							</li>
+							<li class="#"><a href="#"><div>경마채널</div></a>
+								
+							</li>
+							<li class="#"><a href="#"><div>지난경기</div></a>
+							
+							</li>
+							<li><a href="#"><div>게임랜드</div></a>
+								
+							</li>
+							<li class="#"><a href="#"><div>마이페이지</div></a>
+								<ul>							
+									<li><a href="#"><div>쪽지함</div></a>
+										<ul>
+											<li><a href="#"><div>쪽지보내기</div></a></li>
+											<li><a href="#"><div>받은메시지</div></a></li>
+											<li><a href="#"><div>보낸메시지</div></a></li>
+										</ul>
+									</li>
+									<li><a href="#"><div>포인트</div></a>
+										<ul>
+											<li><a href="#"><div>포인트사용내역</div></a></li>									
+										</ul>
+									</li>		
+									<li><a href="#"><div>정보수정</div></a></li>
+									<li><a href="#"><div>회원탈퇴</div></a></li>
+								</ul>
+							</li>
+							<li class="#"><a href="#"><div>고객센터</div></a>
+								<ul>
+									<li><a href="#"><div>회사소개</div></a></li>
+									<li><a href="#"><div>이용약관</div></a></li>
+									<li><a href="#"><div>개인정보 처리방침</div></a></li>
+									<li><a href="#"><div>사이트 소개</div></a></li>
+									<li><a href="#"><div>Q&A</div></a></li>
+								</ul>
+							</li>
+						</ul>
+
+						<ul class="not-dark align-self-end">
+							<li><a href="#" class="header-button"><div>Donate</div></a></li>
+						</ul>
+
+					</nav>
+					
+					<!-- <nav id="primary-menu">
 						<ul>
 							<li><a href="#"><div>NEWS</div></a>
 								
@@ -201,8 +336,8 @@
 	
 						
 
-						<!-- Top Cart
-						============================================= -->
+						Top Cart
+						=============================================
 						<div id="top-cart">
 							<a href="#" id="top-cart-trigger"><i class="icon-email3"></i><span>5</span></a>
 							<div class="top-cart-content">
@@ -236,18 +371,18 @@
 									<button class="button button-3d button-small nomargin fright">View Cart</button>
 								</div>
 							</div>
-						</div><!-- #top-cart end -->
+						</div>#top-cart end
 
-						<!-- Top Search
-						============================================= -->
+						Top Search
+						=============================================
 						<div id="top-search">
 							<a href="#" id="top-search-trigger"><i class="icon-search3"></i><i class="icon-line-cross"></i></a>
 							<form action="search.html" method="get">
 								<input type="text" name="q" class="form-control" value="" placeholder="Type &amp; Hit Enter..">
 							</form>
-						</div><!-- #top-search end -->
+						</div>#top-search end
 
-					</nav><!-- #primary-menu end -->
+					</nav> --><!-- #primary-menu end -->
 
 				</div>
 
@@ -633,6 +768,45 @@
 
 		<!-- Slider
 		============================================= -->
+		<section id="slider" class="slider-element dark swiper_wrapper full-screen force-full-screen slider-parallax clearfix" style="max-height: 400px;">
+
+			<div class="slider-parallax-inner">
+
+				<div class="swiper-container swiper-parent">
+					<div class="swiper-wrapper">
+						<div class="swiper-slide dark" style="background: linear-gradient(rgba(0,0,0,.3), rgba(0,0,0,.5)), url('resources/demos/nonprofit/images/slider/kuyngma.jpg') no-repeat center center ; background-size: cover;max-height: 400px; ">
+							<div class="container clearfix">
+								<div class="slider-caption">
+									<h2 class="nott" data-animate="fadeInUp">Help the Homeless & Hungry People.</h2>
+									<p style="font-size: 17px;" data-animate="fadeInUp" data-delay="200">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Autem molestiae, cum ratione at temporibus aperiam repudiandae consectetur, illo nam maiores.</p>
+									<a href="#" data-animate="fadeInUp" data-delay="400" class="button button-rounded button-large button-light text-dark bgcolor shadow nott ls0 ml-0 mt-4">Know More</a>
+								</div>
+							</div>
+						</div>
+						<div class="swiper-slide dark" style="background: linear-gradient(rgba(0,0,0,0), rgba(0,0,0,.8)), url('resources/demos/nonprofit/images/slider/6.jpeg') no-repeat center center; background-size: cover;max-height: 400px;">
+							<div class="container clearfix">
+								<div class="slider-caption">
+									<h2 class="nott" data-animate="fadeInUp">Welcome to Canvas</h2>
+									<p style="font-size: 17px;" data-animate="fadeInUp" data-delay="200">Seamlessly transition standardized channels whereas maintainable web services. Competently unleash exceptional portals through timely infomediaries.</p>
+									<a href="#" data-animate="fadeInUp" data-delay="400" class="button button-rounded button-large button-light text-dark bgcolor shadow nott ls0 ml-0 mt-4">Know More</a>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="swiper-navs">
+						<div class="slider-arrow-left"><i class="icon-line-arrow-left"></i></div>
+						<div class="slider-arrow-right"><i class="icon-line-arrow-right"></i></div>
+					</div>
+					<div class="swiper-scrollbar">
+						<div class="swiper-scrollbar-drag">
+						<div class="slide-number"><div class="slide-number-current"></div><span>/</span><div class="slide-number-total"></div></div></div>
+					</div>
+				</div>
+
+			</div>
+
+		</section>
+		
 		<!-- <section id="slider" class="slider-element revslider-wrap clearfix">
 
 			<div class="rev_slider_wrapper" style="width: 100%;margin: 0 auto; background:#000;padding:0px;margin-top:0px;margin-bottom:0px;">
@@ -2639,17 +2813,17 @@
 								<div class="ipost mb-4 mb-lg-4 row clearfix">
 									<div class="col-md-6">
 										<div class="entry-image mb-0">
-											<div class="fslider" data-arrows="false" data-speed="400" data-pause="4000">
+											<div class="fslider" data-arrows="false" data-speed="300" data-pause="4000">
 												<div class="flexslider">
 													<div class="slider-wrap">
 														<div class="slide">
-															<a href="#"><img src="resources/demos/news/images/posts/food/4.jpg" alt="Image 1"></a>
+															<a href="#"><img src="resources/demos/news/images/mario.png" alt="Image 1"></a>
 														</div>
 														<div class="slide">
-															<a href="#"><img src="resources/demos/news/images/posts/fashion/4.jpg" alt="Image 2"></a>
+															<a href="#"><img src="resources/demos/news/images/tetris.png" alt="Image 2"></a>
 														</div>
 														<div class="slide">
-															<a href="#"><img src="resources/demos/news/images/posts/travel/3.jpg" alt="Image 2"></a>
+															<a href="#"><img src="resources/demos/news/images/bubble.jpg" alt="Image 2"></a>
 														</div>
 													</div>
 												</div>
