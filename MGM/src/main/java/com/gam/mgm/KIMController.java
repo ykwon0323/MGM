@@ -99,7 +99,7 @@ public class KIMController implements ServletContextAware{
 		
 		model.addAttribute("list", list);
 		 model.addAttribute("page", pagemaker);
-		return "Free/FreeBoard";
+		return "Free/FreeBoard2";
 		
 	}
 	
