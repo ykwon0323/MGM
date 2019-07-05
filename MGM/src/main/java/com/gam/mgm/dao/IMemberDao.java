@@ -1,5 +1,14 @@
 package com.gam.mgm.dao;
 
-public interface IMemberDao {
 
+
+import java.util.Map;
+
+import com.gam.mgm.dto.MemberDto;
+
+public interface IMemberDao {
+	//회원가입
+	public boolean signUp(MemberDto dto);
+	//로그인
+	public MemberDto login(Map<String,String> member);
 }

@@ -10,6 +10,11 @@ public class MemberDto {
 	private String member_likeplace;
 	private String member_delflag;
 	private int member_point;
+	
+	public MemberDto() {
+		super();
+		// TODO Auto-generated constructor stub
+	}
 	public MemberDto(String member_id, String member_pw, String member_address, String member_name, String member_birth,
 			String member_phnum, String member_likeplace, String member_delflag) {
 		super();
