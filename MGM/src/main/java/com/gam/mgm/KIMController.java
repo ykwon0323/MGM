@@ -59,7 +59,7 @@ public class KIMController implements ServletContextAware{
 	@RequestMapping(value = "/main.do", method = RequestMethod.GET)
 	public String main(Locale locale, Model model) {
 		logger.info(" 메인 이동하기{}.", locale);
-		return "Main";
+		return "Main2";
 	}
 	
 	/* @RequestMapping(value = "/freeboard.do", method = {RequestMethod.POST,RequestMethod.GET})
@@ -99,7 +99,7 @@ public class KIMController implements ServletContextAware{
 		
 		model.addAttribute("list", list);
 		 model.addAttribute("page", pagemaker);
-		return "Free/FreeBoard";
+		return "Free/FreeBoard2";
 		
 	}
 	
@@ -233,13 +233,14 @@ public class KIMController implements ServletContextAware{
 	      
 	      }
 		
-		@RequestMapping(value = "/freedetail.do", method = RequestMethod.GET)
-		public String freedetail(Locale locale, Model model,int seq) {
+	/*	@RequestMapping(value = "/freedetail.do", method = RequestMethod.GET)
+		public String freedetail(Locale locale, Model model,int freeboard_seq) {
 			logger.info("자유게시판 상세 보기 {}.", locale);
-			FreeDto freeDto = freeService.getBoard(seq);
+			freeService.readCount(freeboard_seq);
+			FreeDto freeDto = freeService.getBoard(freeboard_seq);
 			model.addAttribute("freeDto",freeDto);
 			
 			return "Free/FreeDetail";
-		}
+		}*/
 	 
 }

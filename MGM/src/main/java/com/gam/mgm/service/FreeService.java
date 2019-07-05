@@ -32,8 +32,14 @@ public class FreeService implements IFreeService{
 	}
 
 	@Override
-	public FreeDto getBoard(int seq) {
+	public FreeDto getBoard(int freeboard_seq) {
 		
-		return freeDao.getBoard(seq);
+		return freeDao.getBoard(freeboard_seq);
+	}
+
+	@Override
+	public boolean readCount(int freeboard_seq) {
+		
+		return freeDao.readCount(freeboard_seq);
 	}
 }
