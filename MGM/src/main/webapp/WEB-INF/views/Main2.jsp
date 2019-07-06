@@ -183,21 +183,21 @@
 													 <div class="spost pt-0  notopborder clearfix">
 														<div class="row no-gutters">
 															<div class="col-lg-7 "  >인기글입니다</div>
-															<div class="col-lg-3 nopadding"><span class="text-dark"><i class="icon-battery-half"></i></span> admin</div>
+															<div class="col-lg-3 nopadding"><span class="text-secondary"><i class="icon-battery-half"></i></span> admin</div>
 															<div class="col-lg-2 nopadding" >07.03</div>															
 														</div>
 													</div>
 													<div class="spost pt-0  notopborder clearfix">
 														<div class="row no-gutters">
 															<div class="col-lg-7 "  >전체공지사항입니다</div>
-															<div class="col-lg-3 nopadding"><span class="text-dark"><i class="icon-battery-three-quarters"></i></span> admin</div>
+															<div class="col-lg-3 nopadding"><span class="text-danger"><i class="icon-battery-three-quarters"></i></span> admin</div>
 															<div class="col-lg-2 nopadding">07.03</div>														
 														</div>
 													</div>
 													<div class="spost pt-0  notopborder clearfix">
 														<div class="row no-gutters">
 															<div class="col-lg-7 "  >전체공지사항입니다.이번주부터는 열심히 합시다</div>
-															<div class="col-lg-3 nopadding"><span class="text-dark"><i class="icon-battery-full"></i></span> admin</div>
+															<div class="col-lg-3 nopadding"><span class="text-warning"><i class="icon-battery-full"></i></span> admin</div>
 															<div class="col-lg-2 nopadding">07.03</div>													
 														</div>
 													</div>
@@ -239,21 +239,21 @@
 													<div class="spost pt-0  notopborder clearfix">
 														<div class="row no-gutters">
 															<div class="col-lg-7 "  >인기글입니다.이번주부터는 열심히 합시다</div>
-															<div class="col-lg-3 nopadding"><span class="text-dark"><i class="icon-battery-empty"></i></span> admin</div>
+															<div class="col-lg-3 nopadding"><span class="text-secondary"><i class="icon-battery-empty"></i></span> admin</div>
 															<div class="col-lg-2 nopadding">07.03</div>														
 														</div>
 													</div>
 													<div class="spost pt-0  notopborder clearfix">
 														<div class="row no-gutters">
 															<div class="col-lg-7 "  >인기글입니다.이번주부터는 열심히 합시다</div>
-															<div class="col-lg-3 nopadding"><span class="text-dark"><i class="icon-battery-full"></i></span> admin</div>
+															<div class="col-lg-3 nopadding"><span class="text-secondary"><i class="icon-battery-full"></i></span> admin</div>
 															<div class="col-lg-2 nopadding">07.03</div>														
 														</div>
 													</div>
 													<div class="spost pt-0  notopborder clearfix">
 														<div class="row no-gutters">
 															<div class="col-lg-7 "  >인기글입니다</div>
-															<div class="col-lg-3 nopadding"><span class="text-dark"><i class="icon-battery-quarter"></i></span> admin</div>
+															<div class="col-lg-3 nopadding"><span class="text-danger"><i class="icon-battery-quarter"></i></span> admin</div>
 															<div class="col-lg-2 nopadding">07.03</div>														
 														</div>
 													</div>

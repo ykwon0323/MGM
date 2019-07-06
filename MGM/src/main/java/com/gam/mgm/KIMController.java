@@ -33,10 +33,10 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestMethod;
 import org.springframework.web.servlet.ModelAndView;
 import org.springframework.web.context.ServletContextAware;
-import com.gam.mgm.dto.FreeDto;
+import com.gam.mgm.dto.BoardDto;
 
 import com.gam.mgm.paging.PageMaker;
-import com.gam.mgm.service.IFreeService;
+import com.gam.mgm.service.IBoardService;
 import org.springframework.ui.Model;
 import org.springframework.stereotype.Controller;
 /**
@@ -49,7 +49,7 @@ public class KIMController implements ServletContextAware{
 	private ServletContext context;
 	
 	@Autowired
-	private IFreeService freeService;
+	private IBoardService boardService;
 	
 	@Override
 	public void setServletContext(ServletContext servletContext) {
@@ -80,10 +80,11 @@ public class KIMController implements ServletContextAware{
 		PageMaker pagemaker = new PageMaker();
 		String pagenum = request.getParameter("pagenum");
 		String contentnum = request.getParameter("contentnum");
+		String board_name = request.getParameter("boardname");
 		int cpagenum = Integer.parseInt(pagenum);
 		int ccontentnum = Integer.parseInt(contentnum);
 		
-		pagemaker.setTotalcount(freeService.selectTotalPaging());//전체 게시글 개수를 저장한다
+		pagemaker.setTotalcount(boardService.selectTotalPaging());//전체 게시글 개수를 저장한다
 		pagemaker.setPagenum(cpagenum-1);//현재 페이지를 페잊 객체에 지정한다. -1을 해야 쿼리에서 사용할수 있음
 		pagemaker.setContentnum(ccontentnum);//한페이지에 몇개씩 게시글을 보여줄지 지정한다
 		pagemaker.setCurrentblock(cpagenum);//현재 페이지 블록이 몇번인지 현대 페이지 번호를 통해서 지정한다.
@@ -95,10 +96,11 @@ public class KIMController implements ServletContextAware{
 		Map<String,Object> map = new HashMap<String,Object>();
 		map.put("pagenum", pagemaker.getPagenum()*10);
 		map.put("contentnum", pagemaker.getContentnum());
-		List<FreeDto> list = freeService.getAllList(map);
-		
+		map.put("board_name", board_name);
+		List<BoardDto> list = boardService.getAllList(map);
+		model.addAttribute("boardname",board_name);//board name파라미터를 따로 보냄
 		model.addAttribute("list", list);
-		 model.addAttribute("page", pagemaker);
+		model.addAttribute("page", pagemaker);
 		return "Free/FreeBoard2";
 		
 	}
@@ -212,11 +214,11 @@ public class KIMController implements ServletContextAware{
 	         String title = request.getParameter("title");
 	         String smarteditor = request.getParameter("smarteditor");
 	         //세션에서 아이디 추출해야함
-	         FreeDto freeDto = new FreeDto();
-	         freeDto.setFreeboard_contents(smarteditor);
-	         freeDto.setFreeboard_title(title);
-	         freeDto.setFreeboard_writer("admin");
-	         boolean isS = freeService.freeinsert(freeDto);
+	         BoardDto boardDto = new BoardDto();
+	         boardDto.setBoard_contents(smarteditor);
+	         boardDto.setBoard_title(title);
+	         boardDto.setBoard_writer("admin");
+	         boolean isS = boardService.boardInsert(boardDto);
 	         System.out.println("isS:"+isS);
 	         if(isS) {
 	            ModelAndView model = new ModelAndView("Free/write");

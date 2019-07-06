@@ -40,24 +40,24 @@
 			<tr><td colspan = "10">---작성된 글이 없습니다.---</td></tr>
 		</c:when>
 		<c:otherwise>
-			<c:forEach items="${list}" var="freeDto">
+			<c:forEach items="${list}" var="boardDto">
 				<tr>
 					
-					<td  style="text-align: center;">${freeDto.freeboard_seq}</td>
+					<td  style="text-align: center;">${boardDto.board_seq}</td>
 					<c:choose>
-						<c:when test="${freeDto.freeboard_delflag=='Y'}">
+						<c:when test="${boardDto.board_delflag=='Y'}">
 							<td>---삭제된 글입니다.---</td>
 						</c:when>
 						<c:otherwise>    
 					        <td  style="text-align: center;">
-					        <a href="freedetail.do?freeboard_seq=${freeDto.freeboard_seq}">${freeDto.freeboard_title}</a>
+					        <a href="freedetail.do?board_seq=${boardDto.board_seq}">${boarDto.board_title}</a>
 					        </td>				            									
 						</c:otherwise>
 					</c:choose>
-					<td  style="text-align: center;">${freeDto.freeboard_writer}</td>				
-					<td  style="text-align: center;"> <fmt:formatDate value="${freeDto.freeboard_regdate}" pattern="yyyy년MM월dd일"/> </td>
-					<td  style="text-align: center;">${freeDto.freeboard_readcount}</td>	
-					<td  style="text-align: center;">${freeDto.freeboard_pushnum}</td>				
+					<td  style="text-align: center;">${boardDto.board_writer}</td>				
+					<td  style="text-align: center;"> <fmt:formatDate value="${boardDto.board_regdate}" pattern="yyyy년MM월dd일"/> </td>
+					<td  style="text-align: center;">${boardDto.board_readcount}</td>	
+					<td  style="text-align: center;">${boardDto.board_pushnum}</td>				
 				</tr>
 			</c:forEach>
 		</c:otherwise>

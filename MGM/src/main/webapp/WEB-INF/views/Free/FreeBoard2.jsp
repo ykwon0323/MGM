@@ -132,13 +132,16 @@
 						
 						</div> -->
 						
-							
+								<!-- board name을 div에 불러옴 , script에서 받음 -->
+								<div id="boardname" data-boardname = "${boardname}" ></div>
+								
 								<div class="col-md-12 mt-5">
 								<h4 class="mb-2 ls1 uppercase t700" style="font-size: 120%;"><span class="text-dark"><i class="icon-user-friends"></i></span> 커뮤니티</h4>
 									<div class="line line-xs line-sports"></div>									
 
 						<div class="tabs tabs-bordered clearfix" id="tab-2">
-
+							
+							
 							<ul class="tab-nav clearfix">
 								<li><a href="#tabs-17"> 공지게시판</a></li>
 								<li><a href="#tabs-18"> 자유게시판</a></li>
@@ -148,8 +151,7 @@
 
 							<div class="tab-container">
 
-								<div class="tab-content clearfix" id="tabs-17">
-									
+								<div class="tab-content clearfix" id="tabs-17">	
 							<div class="table-responsive">
 							<table class="table table-striped">
 							<col width="50px"><col width="300px"><col width="100px"><col width="150px"><col width="60px"><col width="50px">
@@ -170,24 +172,24 @@
 										<tr><td colspan = "10">---작성된 글이 없습니다.---</td></tr>
 											</c:when>
 											<c:otherwise>
-												<c:forEach items="${list}" var="freeDto">
+												<c:forEach items="${list}" var="boardDto">
 										<tr>
 					
-												<td  style="text-align: center;">${freeDto.freeboard_seq}</td>
+												<td  style="text-align: center;">${boardDto.board_seq}</td>
 									<c:choose>
-						<c:when test="${freeDto.freeboard_delflag=='Y'}">
+						<c:when test="${baordDto.board_delflag=='Y'}">
 							<td>---삭제된 글입니다.---</td>
 						</c:when>
 						<c:otherwise>    
 					        <td  style="text-align: center;">
-					        <a href="freedetail.do?freeboard_seq=${freeDto.freeboard_seq}">${freeDto.freeboard_title}</a>
+					        <a href="freedetail.do?freeboard_seq=${boardDto.board_seq}">${boardDto.board_title}</a>
 					        </td>				            									
 						</c:otherwise>
 					</c:choose>
-					<td  style="text-align: center;">${freeDto.freeboard_writer}</td>				
-					<td  style="text-align: center;"> <fmt:formatDate value="${freeDto.freeboard_regdate}" pattern="yyyy년MM월dd일"/> </td>
-					<td  style="text-align: center;">${freeDto.freeboard_readcount}</td>	
-					<td  style="text-align: center;">${freeDto.freeboard_pushnum}</td>				
+					<td  style="text-align: center;">${boardDto.board_writer}</td>				
+					<td  style="text-align: center;"> <fmt:formatDate value="${boardDto.board_regdate}" pattern="yyyy년MM월dd일"/> </td>
+					<td  style="text-align: center;">${boardDto.board_readcount}</td>	
+					<td  style="text-align: center;">${boardDto.board_pushnum}</td>				
 				</tr>
 			</c:forEach>
 		</c:otherwise>
@@ -457,8 +459,10 @@
 	function page(idx) {
 		var pagenum = idx;
 		var contentnum = 10;//$("#contentnum option:selected").val();
-		location.href="freeboard.do?pagenum="+pagenum+"&contentnum="+contentnum;
+		var boardname = $('#boardname').attr("data-boardname");//boardname을 받아옴
+		location.href="freeboard.do?pagenum="+pagenum+"&contentnum="+contentnum+"&boardname="+boardname;
 	}
 </script>
+
 	</body>
 	</html>
